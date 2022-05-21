@@ -16,6 +16,7 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/pokemon.cs
     var index = test.options[test.selectedIndex].getAttribute("index")
     var imagem = document.getElementById("image");
     var pstats = document.getElementById("pokemon-stats");
+    var tstats = document.getElementById("tormenta-stats");
 
     if (imagem.hasChildNodes()) {
       var img = document.getElementById('pokemon-image');
@@ -23,6 +24,11 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/pokemon.cs
 
       for(i in poke_stats){
         let paragrafo = document.getElementById(poke_stats[i]);
+        paragrafo.parentNode.removeChild(paragrafo)
+      }
+
+      for(j in tormenta_stats){
+        let paragrafo = document.getElementById(tormenta_stats[j]);
         paragrafo.parentNode.removeChild(paragrafo)
       }
     }
@@ -45,8 +51,17 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/pokemon.cs
       }
       paragrafo.appendChild(dado);
       pstats.appendChild(paragrafo);
-
     }
+
+    for(j in tormenta_stats){
+      let paragrafo = document.createElement("p");
+      paragrafo.setAttribute("id", tormenta_stats[j]);
+      let dado;
+      dado = document.createTextNode(data[index][tormenta_stats[j]]);
+      paragrafo.appendChild(dado);
+      tstats.appendChild(paragrafo);
+    }
+
 
 
 
