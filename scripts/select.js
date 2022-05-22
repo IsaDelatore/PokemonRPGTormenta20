@@ -14,7 +14,36 @@ const egggroups = { Amorphous: "Anatomia insana",
     NoEggs: "Versátil",
     Water: "Deslocamento aquático 12m"
 };
+const typepoder = {
+  FIRE: "Criar elemento: fogo",
+  WATER: "Criar elemento: água",
+  DARK: "Visão no escuro",
+  ICE: "RD (físico) 1 +1/4Nv",
+  STEEL: "RD(físico) 1+1/2Nv",
+  ROCK: "RD 2 +1/4Nv",
+  GHOST: "Invisibilidade"
+};
 
+const typepericia = {
+  GRASS: "Sobrevivência, fortitude, culinária ou intuição",
+  FIRE: "Intimidação ou luta",
+  WATER: "Vontade ou pontaria",
+  BUG: "Furtividade, acrobacia, percepção ou reflexos",
+  NORMAL: "Treinamento em 3 perícias quaisquer",
+  DARK: "Enganação ou ladinagem",
+  POISON: "Alquimia, cura, fortitude ou sobrevivência",
+  ELECTRIC: "Iniciativa, pontaria, acrobacia ou reflexos",
+  GROUND: "Sobrevivência, fortitude, furtividade ou guerra",
+  ICE: "Vontade",
+  FAIRY: "Misticismo, religião, diplomacia ou intuição",
+  STEEL: "",
+  FIGHTING: "Luta, atletismo, fortitude ou guerra",
+  PSYCHIC: "Conhecimento, misticismo, religião ou intuição",
+  ROCK: "",
+  GHOST: "Furtividade",
+  DRAGON: "Intimidação, fortitude, luta ou atletismo",
+  FLYING: "Percepção, pontaria, reflexos ou acrobacia"
+}
 
 d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/pokemon.csv", function(error, data) {
   var select = d3.select(".dropbox")
@@ -32,20 +61,28 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/pokemon.cs
     var pstats = document.getElementById("pokemon-stats");
     var tstats = document.getElementById("tormenta-stats");
     var per = document.getElementById("pericias");
-    
+
+    var paragrafo;
+    var dado;
+
 
     if (imagem.hasChildNodes()) {
       let img = document.getElementById('pokemon-image');
       img.parentNode.removeChild(img);
 
       for(i in poke_stats){
-        let paragrafo = document.getElementById(poke_stats[i]);
-        paragrafo.parentNode.removeChild(paragrafo)
+        paragrafo = document.getElementById(poke_stats[i]);
+        paragrafo.parentNode.removeChild(paragrafo);
       }
 
       for(j in tormenta_stats){
-        let paragrafo = document.getElementById(tormenta_stats[j]);
-        paragrafo.parentNode.removeChild(paragrafo)
+        paragrafo = document.getElementById(tormenta_stats[j]);
+        paragrafo.parentNode.removeChild(paragrafo);
+      }
+
+      paragrafo = document.getElementsByClassName("poder");
+      for(var i = paragrafo.length - 1; i >= 0; i--){
+          paragrafo[i].remove()
       }
     }
 
@@ -55,9 +92,8 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/pokemon.cs
     imagem.appendChild(img);
 
     for(i in poke_stats){
-      let paragrafo = document.createElement("p");
+      paragrafo = document.createElement("p");
       paragrafo.setAttribute("id", poke_stats[i]);
-      let dado
       if(poke_stats[i] == "Type"){
         dado = document.createTextNode(data[index]["Type-1"] + "/" + data[index]["Type-2"]);
       } else if (poke_stats[i] == "Egg-Group"){
@@ -70,37 +106,63 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/pokemon.cs
     }
 
     for(j in tormenta_stats){
-      let paragrafo = document.createElement("p");
+      paragrafo = document.createElement("p");
       paragrafo.setAttribute("id", tormenta_stats[j]);
-      let dado = document.createTextNode(data[index][tormenta_stats[j]]);
+      dado = document.createTextNode(data[index][tormenta_stats[j]]);
       paragrafo.appendChild(dado);
       tstats.appendChild(paragrafo);
     }
 
 
     if (egggroups[data[index]["Egg-Group-1"]] !== undefined){
-      let paragrafo = document.createElement("p");
-      let dado = document.createTextNode(egggroups[data[index]["Egg-Group-1"]]);
-      paragrafo.appendChild(dado);
-      per.appendChild(paragrafo);
+      paragrafo = document.createElement("p");
+      dado = document.createTextNode(egggroups[data[index]["Egg-Group-1"]]);
     } else {
-      let paragrafo = document.createElement("p");
-      let dado = document.createTextNode(egggroups["NoEggs"]);
+      paragrafo = document.createElement("p");
+      dado = document.createTextNode(egggroups["NoEggs"]);
+    }
+    paragrafo.setAttribute("class", "poder");
+    paragrafo.appendChild(dado);
+    per.appendChild(paragrafo);
+    if (egggroups[data[index]["Egg-Group-2"]] !== undefined){
+      paragrafo = document.createElement("p");
+      dado = document.createTextNode(egggroups[data[index]["Egg-Group-2"]]);
+    } else {
+      paragrafo = document.createElement("p");
+      dado = document.createTextNode(egggroups["NoEggs"]);
+    }
+    paragrafo.setAttribute("class", "poder");
+    paragrafo.appendChild(dado);
+    per.appendChild(paragrafo);
+
+
+    if (typepoder[data[index]["Type-1"]] !== undefined){
+      paragrafo = document.createElement("p");
+      dado = document.createTextNode(typepoder[data[index]["Type-1"]]);
+      paragrafo.setAttribute("class", "poder");
       paragrafo.appendChild(dado);
       per.appendChild(paragrafo);
     }
-    if (egggroups[data[index]["Egg-Group-2"]] !== undefined){
-      let paragrafo = document.createElement("p");
-      let dado = document.createTextNode(egggroups[data[index]["Egg-Group-2"]]);
-      paragrafo.appendChild(dado);
-      per.appendChild(paragrafo);
-    } else {
-      let paragrafo = document.createElement("p");
-      let dado = document.createTextNode(egggroups["NoEggs"]);
+    if (typepoder[data[index]["Type-2"]] !== undefined){
+      paragrafo = document.createElement("p");
+      dado = document.createTextNode(typepoder[data[index]["Type-2"]]);
+      paragrafo.setAttribute("class", "poder");
       paragrafo.appendChild(dado);
       per.appendChild(paragrafo);
     }
 
+    paragrafo = document.createElement("p");
+    dado = document.createTextNode(typepericia[data[index]["Type-1"]]);
+    paragrafo.setAttribute("class", "poder");
+    paragrafo.appendChild(dado);
+    per.appendChild(paragrafo);
+    if (typepericia[data[index]["Type-2"]] !== undefined){
+      paragrafo = document.createElement("p");
+      dado = document.createTextNode(typepericia[data[index]["Type-2"]]);
+      paragrafo.setAttribute("class", "poder");
+      paragrafo.appendChild(dado);
+      per.appendChild(paragrafo);
+  }
 
   });
 
