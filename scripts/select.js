@@ -1,5 +1,19 @@
 const poke_stats = ["Type","Total","HP","Attack","Defense","Sp-Atk","Sp-Def","Speed","Egg-Group","Experience-type"];
 const tormenta_stats = ["HP-base","HP-Nv","FOR","DES","CON","INT","SAB","CAR","Armor"];
+const egggroups = { Amorphous: "Anatomia insana",
+    Bug: "Articulações flexíveis",
+    Ditto: "Impostor",
+    Dragon: "Urro aterrador",
+    Fairy: "Aparência inofensiva",
+    Field: "Caminho dos Ermos",
+    Flying: "Deslocamento de voo 12m",
+    Grass: "Coração da selva",
+    HumanLike: "Mãos hábeis",
+    Mineral: "Pele rígida",
+    Monster: "Faro ou Audição apurado",
+    NoEggs: "Versátil",
+    Water: "Deslocamento aquático 12m"
+};
 
 
 d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/pokemon.csv", function(error, data) {
@@ -17,9 +31,11 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/pokemon.cs
     var imagem = document.getElementById("image");
     var pstats = document.getElementById("pokemon-stats");
     var tstats = document.getElementById("tormenta-stats");
+    var per = document.getElementById("pericias");
+    
 
     if (imagem.hasChildNodes()) {
-      var img = document.getElementById('pokemon-image');
+      let img = document.getElementById('pokemon-image');
       img.parentNode.removeChild(img);
 
       for(i in poke_stats){
@@ -56,13 +72,34 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/pokemon.cs
     for(j in tormenta_stats){
       let paragrafo = document.createElement("p");
       paragrafo.setAttribute("id", tormenta_stats[j]);
-      let dado;
-      dado = document.createTextNode(data[index][tormenta_stats[j]]);
+      let dado = document.createTextNode(data[index][tormenta_stats[j]]);
       paragrafo.appendChild(dado);
       tstats.appendChild(paragrafo);
     }
 
 
+    if (egggroups[data[index]["Egg-Group-1"]] !== undefined){
+      let paragrafo = document.createElement("p");
+      let dado = document.createTextNode(egggroups[data[index]["Egg-Group-1"]]);
+      paragrafo.appendChild(dado);
+      per.appendChild(paragrafo);
+    } else {
+      let paragrafo = document.createElement("p");
+      let dado = document.createTextNode(egggroups["NoEggs"]);
+      paragrafo.appendChild(dado);
+      per.appendChild(paragrafo);
+    }
+    if (egggroups[data[index]["Egg-Group-2"]] !== undefined){
+      let paragrafo = document.createElement("p");
+      let dado = document.createTextNode(egggroups[data[index]["Egg-Group-2"]]);
+      paragrafo.appendChild(dado);
+      per.appendChild(paragrafo);
+    } else {
+      let paragrafo = document.createElement("p");
+      let dado = document.createTextNode(egggroups["NoEggs"]);
+      paragrafo.appendChild(dado);
+      per.appendChild(paragrafo);
+    }
 
 
   });
