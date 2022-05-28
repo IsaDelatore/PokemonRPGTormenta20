@@ -10,12 +10,12 @@ Grass,,Coração da selva,Recebe +2 em testes de Fortitude e imunidade à condi�
 Human-Like,,Mãos hábeis,Recebe +2 em 2 perícias a sua escolha
 Mineral,,Pele rígida,Aplica CON na Defesa (limitado pelo nível)
 Monster,,Faro/Audição apurado/a,A criatura não fica desprevinida e sofre apenas camuflagem (em vez de camuflagem total) contra inimigos em alcance curto que não possa ver
-No Eggs Discovered,,Versátil,Recebe treinamento em +2 perícias quaisquer
+No-Eggs-Discovered,,Versátil,Recebe treinamento em +2 perícias quaisquer
 Water,,Deslocamento aquático 12m,
-,Fire,Criar elemento: fogo,Enche um recipiente de tamanho minúsculo (como um odre), com água potável, ou um cubo de gelo
-,Water,Criar elemento: água,Cria uma chama que ilumina como uma tocha, se criada em um alvo sofre 1d6 pontos de dano de fogo, e se falhar no teste de reflexos pega fogo
-,Dark,Visão no escuro,A critura enxerga no escuro em alcance médio e ignora camuflgem (incluindo camuflagem total) por escuridão
-,Ice,RD (físico) 1 +1/4Nv,Recebe resistência à dano físico que aumenta com o nível
-,Steel,RD(físico) 1+1/2Nv,Recebe resistência à dano físico que aumenta com o nível
-,Rock,RD 2 +1/4Nv,Recebe resstência à dano que aumenta com o nível
-,Ghost,Invisibilidade,Se torna invisível por uma rodada, recebendo camuflagem total e +20 em testes de furtividade. Como normal, criaturas que não possam vê-lo ficam desprevenidas
+,FIRE,Criar elemento: fogo,Enche um recipiente de tamanho minúsculo (como um odre), com água potável, ou um cubo de gelo
+,WATER,Criar elemento: água,Cria uma chama que ilumina como uma tocha, se criada em um alvo sofre 1d6 pontos de dano de fogo, e se falhar no teste de reflexos pega fogo
+,DARK,Visão no escuro,A critura enxerga no escuro em alcance médio e ignora camuflgem (incluindo camuflagem total) por escuridão
+,ICE,RD (físico) 1 +1/4Nv,Recebe resistência à dano físico que aumenta com o nível
+,STEEL,RD(físico) 1+1/2Nv,Recebe resistência à dano físico que aumenta com o nível
+,ROCK,RD 2 +1/4Nv,Recebe resstência à dano que aumenta com o nível
+,GHOST,Invisibilidade,Se torna invisível por uma rodada, recebendo camuflagem total e +20 em testes de furtividade. Como normal, criaturas que não possam vê-lo ficam desprevenidas
