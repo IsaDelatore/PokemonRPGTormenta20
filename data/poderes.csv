@@ -1,0 +1,21 @@
+eggGroup,Tipo,Poder,Descricao
+Amorphous,,Anatomia insana,Você tem 25% de chance (resultado “1” em 1d4) de ignorar o dano adicional de um acerto crítico
+Bug,,Articulações flexíveis,Você recebe +1 em testes de Acrobacia, Furtividade e Reflexos
+Ditto,,Impostor,Troca todas as suas estatísticas base pelas do alvo
+Dragon,,Urro aterrador,O alvo em alcance curto é envolvido por medo de você e deve fazer um teste de Vontade (CD CON), se falhar fica apavorado por 1d4 rodas, se passar fica abalado
+Fairy,,Aparência inofensiva,A primeira criatura inteligente que atacar você em uma cena deve fazer um teste de Vontade (CD CAR), se falhar, ele perderá sua ação. Este poder só funciona uma vez por cena.
+Field,,Caminho dos Ermos,Você pode atravessar terrenos difíceis sem sofrer redução em seu deslocamento e a CD para rastreá-lo aumenta em +10
+Flying,,Deslocamento de voo 12m,
+Grass,,Coração da selva,Recebe +2 em testes de Fortitude e imunidade à condição envenenado
+Human-Like,,Mãos hábeis,Recebe +2 em 2 perícias a sua escolha
+Mineral,,Pele rígida,Aplica CON na Defesa (limitado pelo nível)
+Monster,,Faro/Audição apurado/a,A criatura não fica desprevinida e sofre apenas camuflagem (em vez de camuflagem total) contra inimigos em alcance curto que não possa ver
+No Eggs Discovered,,Versátil,Recebe treinamento em +2 perícias quaisquer
+Water,,Deslocamento aquático 12m,
+,Fire,Criar elemento: fogo,Enche um recipiente de tamanho minúsculo (como um odre), com água potável, ou um cubo de gelo
+,Water,Criar elemento: água,Cria uma chama que ilumina como uma tocha, se criada em um alvo sofre 1d6 pontos de dano de fogo, e se falhar no teste de reflexos pega fogo
+,Dark,Visão no escuro,A critura enxerga no escuro em alcance médio e ignora camuflgem (incluindo camuflagem total) por escuridão
+,Ice,RD (físico) 1 +1/4Nv,Recebe resistência à dano físico que aumenta com o nível
+,Steel,RD(físico) 1+1/2Nv,Recebe resistência à dano físico que aumenta com o nível
+,Rock,RD 2 +1/4Nv,Recebe resstência à dano que aumenta com o nível
+,Ghost,Invisibilidade,Se torna invisível por uma rodada, recebendo camuflagem total e +20 em testes de furtividade. Como normal, criaturas que não possam vê-lo ficam desprevenidas
