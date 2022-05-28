@@ -45,7 +45,7 @@ const typepericia = {
   FLYING: "Percepção, pontaria, reflexos ou acrobacia"
 }
 
-d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/pokemon.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/pokemon.csv", function(error, pokemon) {
   var select = d3.select(".dropbox")
   .append("select")
 
@@ -60,6 +60,7 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/pokemon.cs
     var imagem = document.getElementById("image");
     var pstats = document.getElementById("pokemon-stats");
     var tstats = document.getElementById("tormenta-stats");
+    var pod = document.getElementById("poderes");
     var per = document.getElementById("pericias");
 
     var paragrafo;
@@ -84,22 +85,33 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/pokemon.cs
       for(var i = paragrafo.length - 1; i >= 0; i--){
           paragrafo[i].remove()
       }
+
+      paragrafo = document.getElementsByClassName("pericia");
+      for(var i = paragrafo.length - 1; i >= 0; i--){
+          paragrafo[i].remove()
+      }
     }
 
     var img = document.createElement("img");
-    img.setAttribute("id", "pokemon-image")
-    img.src = "https://assets.pokemon.com/assets/cms2/img/pokedex/full/" + data[index]["Number"] + ".png"
+    img.setAttribute("id", "pokemon-image");
+    if (pokemon[index]["Name"].includes("Alolan")){
+      img.src = "https://www.serebii.net/pokemon/art/" + pokemon[index]["Number"] + "-a.png";
+    } else if (pokemon[index]["Name"].includes("Galarian")){
+      img.src = "https://www.serebii.net/pokemon/art/" + pokemon[index]["Number"] + "-g.png";
+    } else {
+      img.src = "https://www.serebii.net/pokemon/art/" + pokemon[index]["Number"] + ".png";
+    }
     imagem.appendChild(img);
 
     for(i in poke_stats){
       paragrafo = document.createElement("p");
       paragrafo.setAttribute("id", poke_stats[i]);
       if(poke_stats[i] == "Type"){
-        dado = document.createTextNode(data[index]["Type-1"] + "/" + data[index]["Type-2"]);
+        dado = document.createTextNode(pokemon[index]["Type-1"] + "/" + pokemon[index]["Type-2"]);
       } else if (poke_stats[i] == "Egg-Group"){
-        dado = document.createTextNode(data[index]["Egg-Group-1"] + "/" + data[index]["Egg-Group-2"]);
+        dado = document.createTextNode(pokemon[index]["Egg-Group-1"] + "/" + pokemon[index]["Egg-Group-2"]);
       } else {
-        dado = document.createTextNode(data[index][poke_stats[i]]);
+        dado = document.createTextNode(pokemon[index][poke_stats[i]]);
       }
       paragrafo.appendChild(dado);
       pstats.appendChild(paragrafo);
@@ -108,58 +120,58 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/pokemon.cs
     for(j in tormenta_stats){
       paragrafo = document.createElement("p");
       paragrafo.setAttribute("id", tormenta_stats[j]);
-      dado = document.createTextNode(data[index][tormenta_stats[j]]);
+      dado = document.createTextNode(pokemon[index][tormenta_stats[j]]);
       paragrafo.appendChild(dado);
       tstats.appendChild(paragrafo);
     }
 
 
-    if (egggroups[data[index]["Egg-Group-1"]] !== undefined){
+    if (egggroups[pokemon[index]["Egg-Group-1"]] !== undefined){
       paragrafo = document.createElement("p");
-      dado = document.createTextNode(egggroups[data[index]["Egg-Group-1"]]);
+      dado = document.createTextNode(egggroups[pokemon[index]["Egg-Group-1"]]);
     } else {
       paragrafo = document.createElement("p");
       dado = document.createTextNode(egggroups["NoEggs"]);
     }
     paragrafo.setAttribute("class", "poder");
     paragrafo.appendChild(dado);
-    per.appendChild(paragrafo);
-    if (egggroups[data[index]["Egg-Group-2"]] !== undefined){
+    pod.appendChild(paragrafo);
+    if (egggroups[pokemon[index]["Egg-Group-2"]] !== undefined){
       paragrafo = document.createElement("p");
-      dado = document.createTextNode(egggroups[data[index]["Egg-Group-2"]]);
+      dado = document.createTextNode(egggroups[pokemon[index]["Egg-Group-2"]]);
     } else {
       paragrafo = document.createElement("p");
       dado = document.createTextNode(egggroups["NoEggs"]);
     }
     paragrafo.setAttribute("class", "poder");
     paragrafo.appendChild(dado);
-    per.appendChild(paragrafo);
+    pod.appendChild(paragrafo);
 
 
-    if (typepoder[data[index]["Type-1"]] !== undefined){
+    if (typepoder[pokemon[index]["Type-1"]] !== undefined){
       paragrafo = document.createElement("p");
-      dado = document.createTextNode(typepoder[data[index]["Type-1"]]);
+      dado = document.createTextNode(typepoder[pokemon[index]["Type-1"]]);
       paragrafo.setAttribute("class", "poder");
       paragrafo.appendChild(dado);
-      per.appendChild(paragrafo);
+      pod.appendChild(paragrafo);
     }
-    if (typepoder[data[index]["Type-2"]] !== undefined){
+    if (typepoder[pokemon[index]["Type-2"]] !== undefined){
       paragrafo = document.createElement("p");
-      dado = document.createTextNode(typepoder[data[index]["Type-2"]]);
+      dado = document.createTextNode(typepoder[pokemon[index]["Type-2"]]);
       paragrafo.setAttribute("class", "poder");
       paragrafo.appendChild(dado);
-      per.appendChild(paragrafo);
+      pod.appendChild(paragrafo);
     }
 
     paragrafo = document.createElement("p");
-    dado = document.createTextNode(typepericia[data[index]["Type-1"]]);
-    paragrafo.setAttribute("class", "poder");
+    dado = document.createTextNode(typepericia[pokemon[index]["Type-1"]]);
+    paragrafo.setAttribute("class", "pericia");
     paragrafo.appendChild(dado);
     per.appendChild(paragrafo);
-    if (typepericia[data[index]["Type-2"]] !== undefined){
+    if (typepericia[pokemon[index]["Type-2"]] !== undefined){
       paragrafo = document.createElement("p");
-      dado = document.createTextNode(typepericia[data[index]["Type-2"]]);
-      paragrafo.setAttribute("class", "poder");
+      dado = document.createTextNode(typepericia[pokemon[index]["Type-2"]]);
+      paragrafo.setAttribute("class", "pericia");
       paragrafo.appendChild(dado);
       per.appendChild(paragrafo);
   }
@@ -167,7 +179,7 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/pokemon.cs
   });
 
 select.selectAll("option")
-.data(data)
+.data(pokemon)
 .enter()
   .append("option")
   .attr("index", function (d) { return d.Index; })//atributo
