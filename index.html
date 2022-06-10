@@ -14,7 +14,6 @@ Assim, foram feitas conversões para cada atributo do RPG baseado nos status do 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://d3js.org/d3.v3.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/IsaDelatore/PokemonRPG@main/scripts/select.js"></script>
-    <!--<script src="./scripts/select.js"></script>-->
 
   </head>
   <body>
@@ -22,55 +21,59 @@ Assim, foram feitas conversões para cada atributo do RPG baseado nos status do 
       <div class="container">
 
       <h1>Pokémon RPG de Mesa</h1>
-      <div class="dropbox"></div>
+
+
       <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-3">
+          <div class="dropbox"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
           <div id="image"></div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-6">
           <div class="row">
             <h2>Pokemon Stats</h2>
-            <div class="col-6" id="label">
-              <p>Tipo: </p>
-              <p>Total: </p>
-              <p>Hp: </p>
-              <p>Ataque: </p>
-              <p>Defesa: </p>
-              <p>Ataque Sp: </p>
-              <p>Defesa Sp: </p>
-              <p>Velocidade: </p>
-              <p>Egg Group: </p>
-              <p>Tipo de XP: </p>
-            </div>
-            <div class="col-6" id="pokemon-stats"></div>
+              <div class="col-3" id="label">
+                <p>Tipo: </p>
+                <p>Total: </p>
+                <p>Hp: </p>
+                <p>Ataque: </p>
+                <p>Defesa: </p>
+                <p>Ataque Sp: </p>
+                <p>Defesa Sp: </p>
+                <p>Velocidade: </p>
+                <p>Egg Group: </p>
+                <p>Tipo de XP: </p>
+              </div>
+              <div class="col-3" id="pokemon-stats"></div>
+          </div>
           </div>
         </div>
         <div class="row">
-          <h2>Tormenta Stats</h2>
-          <div class="col-3" id="label">
-            <p>HP base: </p>
-            <p>HP/Nv: </p>
-            <p>Força: </p>
-            <p>Destreza: </p>
-            <p>Constituição: </p>
-            <p>Inteligência: </p>
-            <p>Sabedoria: </p>
-            <p>Carisma: </p>
-            <p>Armor: </p>
-          </div>
-          <div class="col-3" id="tormenta-stats"></div>
-          <div class="col-6">
-            <div class="row" id="pericias">
-              <h4>Perícias</h4>
+            <h2>Tormenta Stats</h2>
+            <div class="col-3" id="label">
+              <p>HP base: </p>
+              <p>HP/Nv: </p>
+              <p>Força: </p>
+              <p>Destreza: </p>
+              <p>Constituição: </p>
+              <p>Inteligência: </p>
+              <p>Sabedoria: </p>
+              <p>Carisma: </p>
+              <p>Armor: </p>
             </div>
-            <div class="row" id="poderes">
-              <h4>Poderes</h4>
-
+            <div class="col-3" id="tormenta-stats"></div>
+            <div class="col-6">
+              <div class="row" id="pericias">
+                <h4>Perícias</h4>
+              </div>
+              <div class="row" id="poderes">
+                <h4>Poderes</h4>
+              </div>
             </div>
           </div>
-        </div>
-        </div>
-      </div>
     </div>
   </body>
 </html>
