@@ -22,10 +22,13 @@ const typepericia = {
   FLYING: "Percepção, pontaria, reflexos ou acrobacia"
 }
 
+
 d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/data/pokemon.csv", function(error, pokemon) {
   d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/data/poderes.csv", function(error, poderes){
-    var select = d3.select(".dropbox")
-    .append("select")
+    var select = d3.select(".dropbox").append("select");
+    d3.select("select")
+    .attr("class", "form-select form-select-sm")
+
 
 
     select
@@ -74,13 +77,7 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/data/pokem
       //Showing pokemon image
       var img = document.createElement("img");
       img.setAttribute("id", "pokemon-image");
-      if (pokemon[index]["Name"].includes("Alolan")){
-        img.src = "https://www.serebii.net/pokemon/art/" + pokemon[index]["Number"] + "-a.png";
-      } else if (pokemon[index]["Name"].includes("Galarian")){
-        img.src = "https://www.serebii.net/pokemon/art/" + pokemon[index]["Number"] + "-g.png";
-      } else {
-        img.src = "https://www.serebii.net/pokemon/art/" + pokemon[index]["Number"] + ".png";
-      }
+      img.src = "https://www.serebii.net/pokemon/art/" + pokemon[index]["Number"] + pokemon[index]["ImageTag"] + ".png";
       imagem.appendChild(img);
 
       //Showing pokemon stats
@@ -88,9 +85,9 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/data/pokem
         paragrafo = document.createElement("p");
         paragrafo.setAttribute("id", poke_stats[i]);
         if(poke_stats[i] == "Type"){
-          dado = document.createTextNode(pokemon[index]["Type-1"] + "/" + pokemon[index]["Type-2"]);
+          dado = document.createTextNode(pokemon[index]["Type-1"] + " / " + pokemon[index]["Type-2"]);
         } else if (poke_stats[i] == "Egg-Group"){
-          dado = document.createTextNode(pokemon[index]["Egg-Group-1"] + "/" + pokemon[index]["Egg-Group-2"]);
+          dado = document.createTextNode(pokemon[index]["Egg-Group-1"] + " / " + pokemon[index]["Egg-Group-2"]);
         } else {
           dado = document.createTextNode(pokemon[index][poke_stats[i]]);
         }
@@ -112,13 +109,13 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/data/pokem
         if (poderes[i]["eggGroup"] !== "") {
           if (poderes[i]["eggGroup"] == pokemon[index]["Egg-Group-1"]) {
             pod.innerHTML += '<div class="row poder"><div class="col-10"><p>'+ poderes[i]["Poder"] + '</p></div>' +
-            '<div class="col-2"><button class="btn btn-primary btn-info btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + poderes[i]["eggGroup"] + '" aria-expanded="false" aria-controls="descricao">v</button></div>' +
+            '<div class="col-2"><button class="btn btn-dark btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + poderes[i]["eggGroup"] + '" aria-expanded="false" aria-controls="descricao">v</button></div>' +
             '<div class="collapse" id="descricao-' + poderes[i]["eggGroup"] + '"><div class="card card-body">' + poderes[i]["Descricao"] + '</div></div>' +
             '</div>'
 
           } else if (poderes[i]["eggGroup"] == pokemon[index]["Egg-Group-2"] && pokemon[index]["Egg-Group-2"] !== undefined) {
             pod.innerHTML += '<div class="row poder"><div class="col-10"><p>'+ poderes[i]["Poder"] + '</p></div>' +
-            '<div class="col-2"><button class="btn btn-primary btn-info btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + poderes[i]["eggGroup"] + '" aria-expanded="false" aria-controls="descricao">v</button></div>' +
+            '<div class="col-2"><button class="btn btn-dark btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + poderes[i]["eggGroup"] + '" aria-expanded="false" aria-controls="descricao">v</button></div>' +
             '<div class="collapse" id="descricao-' + poderes[i]["eggGroup"] + '"><div class="card card-body">' + poderes[i]["Descricao"] + '</div></div>' +
             '</div>'
           }
@@ -126,14 +123,14 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/data/pokem
         if (poderes[i]["Tipo"] !== "") {
           if (poderes[i]["Tipo"] == pokemon[index]["Type-1"]) {
             pod.innerHTML += '<div class="row poder"><div class="col-10"><p>'+ poderes[i]["Poder"] + '</p></div>' +
-            '<div class="col-2"><button class="btn btn-primary btn-info btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + poderes[i]["eggGroup"] + '" aria-expanded="false" aria-controls="descricao">v</button></div>' +
-            '<div class="collapse" id="descricao-' + poderes[i]["eggGroup"] + '"><div class="card card-body">' + poderes[i]["Descricao"] + '</div></div>' +
+            '<div class="col-2"><button class="btn btn-dark btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + poderes[i]["Tipo"] + '" aria-expanded="false" aria-controls="descricao">v</button></div>' +
+            '<div class="collapse" id="descricao-' + poderes[i]["Tipo"] + '"><div class="card card-body">' + poderes[i]["Descricao"] + '</div></div>' +
             '</div>'
 
           } else if (poderes[i]["Tipo"] == pokemon[index]["Type-2"] && pokemon[index]["Type-2"] !== undefined) {
             pod.innerHTML += '<div class="row poder"><div class="col-10"><p>'+ poderes[i]["Poder"] + '</p></div>' +
-            '<div class="col-2"><button class="btn btn-primary btn-info btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + poderes[i]["eggGroup"] + '" aria-expanded="false" aria-controls="descricao">v</button></div>' +
-            '<div class="collapse" id="descricao-' + poderes[i]["eggGroup"] + '"><div class="card card-body">' + poderes[i]["Descricao"] + '</div></div>' +
+            '<div class="col-2"><button class="btn btn-dark btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + poderes[i]["Tipo"] + '" aria-expanded="false" aria-controls="descricao">v</button></div>' +
+            '<div class="collapse" id="descricao-' + poderes[i]["Tipo"] + '"><div class="card card-body">' + poderes[i]["Descricao"] + '</div></div>' +
             '</div>'
         }
       }
