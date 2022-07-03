@@ -43,6 +43,7 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/data/pokem
       var tstats = document.getElementById("tormenta-stats");
       var pod = document.getElementById("poderes");
       var per = document.getElementById("pericias");
+      var att = document.getElementById("ataques");
 
       var paragrafo;
       var dado;
@@ -72,6 +73,11 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/data/pokem
         for(var i = paragrafo.length - 1; i >= 0; i--){
             paragrafo[i].remove()
         }
+
+        paragrafo = document.getElementsByClassName("ataques");
+        for(var i = paragrafo.length - 1; i >= 0; i--){
+            paragrafo[i].remove()
+        }
       }
 
       //Showing pokemon image
@@ -85,9 +91,20 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/data/pokem
         paragrafo = document.createElement("p");
         paragrafo.setAttribute("id", poke_stats[i]);
         if(poke_stats[i] == "Type"){
+          if (pokemon[index]["Type-2"] == "") {
+            dado = document.createTextNode(pokemon[index]["Type-1"]);
+          }
+          else{
           dado = document.createTextNode(pokemon[index]["Type-1"] + " / " + pokemon[index]["Type-2"]);
+          }
         } else if (poke_stats[i] == "Egg-Group"){
-          dado = document.createTextNode(pokemon[index]["Egg-Group-1"] + " / " + pokemon[index]["Egg-Group-2"]);
+          if (pokemon[index]["Egg-Group-2"] == "") {
+            dado = document.createTextNode(pokemon[index]["Egg-Group-1"]);
+          }
+          else{
+            dado = document.createTextNode(pokemon[index]["Egg-Group-1"] + " / " + pokemon[index]["Egg-Group-2"]);
+          }
+
         } else {
           dado = document.createTextNode(pokemon[index][poke_stats[i]]);
         }
@@ -109,13 +126,13 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/data/pokem
         if (poderes[i]["eggGroup"] !== "") {
           if (poderes[i]["eggGroup"] == pokemon[index]["Egg-Group-1"]) {
             pod.innerHTML += '<div class="row poder"><div class="col-10"><p>'+ poderes[i]["Poder"] + '</p></div>' +
-            '<div class="col-2"><button class="btn btn-dark btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + poderes[i]["eggGroup"] + '" aria-expanded="false" aria-controls="descricao">v</button></div>' +
+            '<div class="col-2"><button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + poderes[i]["eggGroup"] + '" aria-expanded="false" aria-controls="descricao">v</button></div>' +
             '<div class="collapse" id="descricao-' + poderes[i]["eggGroup"] + '"><div class="card card-body">' + poderes[i]["Descricao"] + '</div></div>' +
             '</div>'
 
           } else if (poderes[i]["eggGroup"] == pokemon[index]["Egg-Group-2"] && pokemon[index]["Egg-Group-2"] !== undefined) {
             pod.innerHTML += '<div class="row poder"><div class="col-10"><p>'+ poderes[i]["Poder"] + '</p></div>' +
-            '<div class="col-2"><button class="btn btn-dark btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + poderes[i]["eggGroup"] + '" aria-expanded="false" aria-controls="descricao">v</button></div>' +
+            '<div class="col-2"><button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + poderes[i]["eggGroup"] + '" aria-expanded="false" aria-controls="descricao">v</button></div>' +
             '<div class="collapse" id="descricao-' + poderes[i]["eggGroup"] + '"><div class="card card-body">' + poderes[i]["Descricao"] + '</div></div>' +
             '</div>'
           }
@@ -123,13 +140,13 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/data/pokem
         if (poderes[i]["Tipo"] !== "") {
           if (poderes[i]["Tipo"] == pokemon[index]["Type-1"]) {
             pod.innerHTML += '<div class="row poder"><div class="col-10"><p>'+ poderes[i]["Poder"] + '</p></div>' +
-            '<div class="col-2"><button class="btn btn-dark btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + poderes[i]["Tipo"] + '" aria-expanded="false" aria-controls="descricao">v</button></div>' +
+            '<div class="col-2"><button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + poderes[i]["Tipo"] + '" aria-expanded="false" aria-controls="descricao">v</button></div>' +
             '<div class="collapse" id="descricao-' + poderes[i]["Tipo"] + '"><div class="card card-body">' + poderes[i]["Descricao"] + '</div></div>' +
             '</div>'
 
           } else if (poderes[i]["Tipo"] == pokemon[index]["Type-2"] && pokemon[index]["Type-2"] !== undefined) {
             pod.innerHTML += '<div class="row poder"><div class="col-10"><p>'+ poderes[i]["Poder"] + '</p></div>' +
-            '<div class="col-2"><button class="btn btn-dark btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + poderes[i]["Tipo"] + '" aria-expanded="false" aria-controls="descricao">v</button></div>' +
+            '<div class="col-2"><button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + poderes[i]["Tipo"] + '" aria-expanded="false" aria-controls="descricao">v</button></div>' +
             '<div class="collapse" id="descricao-' + poderes[i]["Tipo"] + '"><div class="card card-body">' + poderes[i]["Descricao"] + '</div></div>' +
             '</div>'
         }
@@ -150,7 +167,18 @@ d3.csv("https://raw.githubusercontent.com/IsaDelatore/PokemonRPG/main/data/pokem
         per.appendChild(paragrafo);
     }
 
-    });
+    //Showing serebii page for attacks
+    paragrafo = document.createElement("a");
+    dado = document.createTextNode("Confira seus ataques e habilidades aqui!");
+    paragrafo.setAttribute("href", "https://www.serebii.net/" + pokemon[index]["SWSH"] + "/" + pokemon[index]["Number"] + ".shtml");
+    paragrafo.setAttribute("class", "ataques");
+    paragrafo.setAttribute("target", "blank");
+    paragrafo.appendChild(dado);
+    att.appendChild(paragrafo);
+
+
+});
+
 
   select.selectAll("option")
   .data(pokemon)
