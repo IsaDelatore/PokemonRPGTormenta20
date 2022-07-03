@@ -1,4 +1,4 @@
-Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-Group-1,Egg-Group-2,Experience-type,HP-base,HP-Nv,FOR,DES,CON,INT,SAB,CAR,Armor,ImageTag,SWSH
+Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg Group 1,Egg Group 2,Experience type,HP base,HP/Nv,FOR,DES,CON,INT,SAB,CAR,Armor,ImageTag,swsh
 0,001,Bulbasaur,GRASS,POISON,318,45,49,49,65,65,45,Monster,Grass,Medium Slow,10,3,7,6,8,9,9,3d4,4,,pokedex-swsh
 1,002,Ivysaur,GRASS,POISON,405,60,62,63,80,80,60,Monster,Grass,Medium Slow,13,4,8,8,9,10,10,3d4,5,,pokedex-swsh
 2,003,Venusaur,GRASS,POISON,525,80,82,83,100,100,80,Monster,Grass,Medium Slow,17,5,11,10,12,13,13,3d4,7,,pokedex-swsh
@@ -15,22 +15,22 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 13,010,Caterpie,BUG,,195,45,30,35,20,20,45,Bug,,Medium Fast,10,3,4,6,4,3,3,3d4,2,,pokedex-swsh
 14,011,Metapod,BUG,,205,50,20,55,25,25,30,Bug,,Medium Fast,11,3,3,4,5,4,4,3d4,3,,pokedex-swsh
 15,012,Butterfree,BUG,FLYING,395,60,45,50,90,80,70,Bug,,Medium Fast,13,4,6,9,9,12,10,3d4,5,,pokedex-swsh
-16,013,Weedle,BUG,POISON,195,40,35,30,20,20,50,Bug,,Medium Fast,9,3,5,7,4,3,3,3d4,2,,pokedex-sm
-17,014,Kakuna,BUG,POISON,205,45,25,50,25,25,35,Bug,,Medium Fast,10,3,4,5,5,4,4,3d4,3,,pokedex-sm
-18,015,Beedrill,BUG,POISON,395,65,90,40,45,80,75,Bug,,Medium Fast,14,4,12,10,8,6,10,3d4,4,,pokedex-sm
+16,013,Weedle,BUG,POISON,195,40,35,30,20,20,50,Bug,,Medium Fast,9,3,5,7,4,3,3,3d4,2,,pokedex-swsh
+17,014,Kakuna,BUG,POISON,205,45,25,50,25,25,35,Bug,,Medium Fast,10,3,4,5,5,4,4,3d4,3,,pokedex-swsh
+18,015,Beedrill,BUG,POISON,395,65,90,40,45,80,75,Bug,,Medium Fast,14,4,12,10,8,6,10,3d4,4,,pokedex-swsh
 19,015,Mega Beedrill,BUG,POISON,495,65,150,40,15,80,145,Bug,,Medium Fast,14,4,19,19,8,2,10,3d4,4,-m,pokedex-swsh
-20,016,Pidgey,NORMAL,FLYING,251,40,45,40,35,35,56,Flying,,Medium Slow,9,3,6,7,5,5,5,3d4,3,,pokedex-sm
-21,017,Pidgeotto,NORMAL,FLYING,349,63,60,55,50,50,71,Flying,,Medium Slow,13,4,8,9,7,7,7,3d4,4,,pokedex-sm
-22,018,Pidgeot,NORMAL,FLYING,479,83,80,75,70,70,101,Flying,,Medium Slow,17,5,10,13,10,9,9,3d4,5,,pokedex-sm
+20,016,Pidgey,NORMAL,FLYING,251,40,45,40,35,35,56,Flying,,Medium Slow,9,3,6,7,5,5,5,3d4,3,,pokedex-swsh
+21,017,Pidgeotto,NORMAL,FLYING,349,63,60,55,50,50,71,Flying,,Medium Slow,13,4,8,9,7,7,7,3d4,4,,pokedex-swsh
+22,018,Pidgeot,NORMAL,FLYING,479,83,80,75,70,70,101,Flying,,Medium Slow,17,5,10,13,10,9,9,3d4,5,,pokedex-swsh
 23,018,Mega Pidgeot,NORMAL,FLYING,579,83,80,80,135,80,121,Flying,,Medium Slow,17,5,10,16,10,17,10,3d4,6,-m,pokedex-swsh
-24,019,Rattata,NORMAL,,253,30,56,35,25,35,72,Field,,Medium Fast,7,2,7,9,5,4,5,3d4,2,,pokedex-sm
+24,019,Rattata,NORMAL,,253,30,56,35,25,35,72,Field,,Medium Fast,7,2,7,9,5,4,5,3d4,2,,pokedex-swsh
 25,019,Alolan Rattata,DARK,NORMAL,253,30,56,35,25,35,72,Field,,Medium Fast,7,2,7,9,5,4,5,3d4,2,-a,pokedex-swsh
-26,020,Raticate,NORMAL,,413,55,81,60,50,70,97,Field,,Medium Fast,12,3,11,13,9,7,9,3d4,5,,pokedex-sm
+26,020,Raticate,NORMAL,,413,55,81,60,50,70,97,Field,,Medium Fast,12,3,11,13,9,7,9,3d4,5,,pokedex-swsh
 27,020,Alolan Raticate,DARK,NORMAL,413,75,71,70,40,80,77,Field,,Medium Fast,16,4,9,10,10,5,10,3d4,6,-a,pokedex-swsh
-28,021,Spearow,NORMAL,FLYING,262,40,60,30,31,31,70,Flying,,Medium Fast,9,3,8,9,4,4,4,3d4,2,,pokedex-sm
-29,022,Fearow,NORMAL,FLYING,442,65,90,65,61,61,100,Flying,,Medium Fast,14,4,12,13,8,8,8,3d4,5,,pokedex-sm
-30,023,Ekans,POISON,,288,35,60,44,40,54,55,Field,Dragon,Medium Fast,8,2,8,7,7,5,7,3d4,3,,pokedex-sm
-31,024,Arbok,POISON,,448,60,95,69,65,79,80,Field,Dragon,Medium Fast,13,4,12,10,10,9,10,3d4,5,,pokedex-sm
+28,021,Spearow,NORMAL,FLYING,262,40,60,30,31,31,70,Flying,,Medium Fast,9,3,8,9,4,4,4,3d4,2,,pokedex-swsh
+29,022,Fearow,NORMAL,FLYING,442,65,90,65,61,61,100,Flying,,Medium Fast,14,4,12,13,8,8,8,3d4,5,,pokedex-swsh
+30,023,Ekans,POISON,,288,35,60,44,40,54,55,Field,Dragon,Medium Fast,8,2,8,7,7,5,7,3d4,3,,pokedex-swsh
+31,024,Arbok,POISON,,448,60,95,69,65,79,80,Field,Dragon,Medium Fast,13,4,12,10,10,9,10,3d4,5,,pokedex-swsh
 32,025,Pikachu,ELECTRIC,,320,35,55,40,50,50,90,Field,Fairy,Medium Fast,8,2,7,12,6,7,7,3d4,3,,pokedex-swsh
 33,025,Pikachu (Partner Pikachu),ELECTRIC,,430,45,80,50,75,60,120,Field,Fairy,Medium Fast,10,3,10,15,7,10,8,3d4,4,-part,pokedex-swsh
 34,026,Raichu,ELECTRIC,,485,60,90,55,90,80,110,Field,Fairy,Medium Fast,13,4,12,14,9,12,10,3d4,5,,pokedex-swsh
@@ -58,10 +58,10 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 56,043,Oddish,GRASS,POISON,320,45,50,55,75,65,30,Grass,,Medium Slow,10,3,7,4,8,10,9,3d4,4,,pokedex-swsh
 57,044,Gloom,GRASS,POISON,395,60,65,70,85,75,40,Grass,,Medium Slow,13,4,9,5,10,11,10,3d4,5,,pokedex-swsh
 58,045,Vileplume,GRASS,POISON,490,75,80,85,110,90,50,Grass,,Medium Slow,16,4,10,7,11,14,12,3d4,7,,pokedex-swsh
-59,046,Paras,BUG,GRASS,285,35,70,55,45,55,25,Bug,Grass,Medium Fast,8,2,9,4,7,6,7,3d4,4,,pokedex-sm
-60,047,Parasect,BUG,GRASS,405,60,95,80,60,80,30,Bug,Grass,Medium Fast,13,4,12,4,10,8,10,3d4,6,,pokedex-sm
-61,048,Venonat,BUG,POISON,305,60,55,50,40,55,45,Bug,,Medium Fast,13,4,7,6,7,5,7,3d4,4,,pokedex-sm
-62,049,Venomoth,BUG,POISON,450,70,65,60,90,75,90,Bug,,Medium Fast,15,4,9,12,9,12,10,3d4,5,,pokedex-sm
+59,046,Paras,BUG,GRASS,285,35,70,55,45,55,25,Bug,Grass,Medium Fast,8,2,9,4,7,6,7,3d4,4,,pokedex-swsh
+60,047,Parasect,BUG,GRASS,405,60,95,80,60,80,30,Bug,Grass,Medium Fast,13,4,12,4,10,8,10,3d4,6,,pokedex-swsh
+61,048,Venonat,BUG,POISON,305,60,55,50,40,55,45,Bug,,Medium Fast,13,4,7,6,7,5,7,3d4,4,,pokedex-swsh
+62,049,Venomoth,BUG,POISON,450,70,65,60,90,75,90,Bug,,Medium Fast,15,4,9,12,9,12,10,3d4,5,,pokedex-swsh
 63,050,Diglett,GROUND,,265,10,55,25,35,45,95,Field,,Medium Fast,3,1,7,12,5,5,6,3d4,2,,pokedex-swsh
 64,050,Alolan Diglett,GROUND,STEEL,265,10,55,30,35,45,90,Field,,Medium Fast,3,1,7,12,5,5,6,3d4,3,-a,pokedex-swsh
 65,051,Dugtrio,GROUND,,425,35,100,50,50,70,120,Field,,Medium Fast,8,2,13,15,8,7,9,3d4,4,,pokedex-swsh
@@ -73,8 +73,8 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 71,053,Alolan Persian,DARK,,440,65,60,60,75,65,115,Field,,Medium Fast,14,4,8,15,8,10,9,3d4,5,-a,pokedex-swsh
 72,054,Psyduck,WATER,,320,50,52,48,65,50,55,Water 1,Field,Medium Fast,11,3,7,7,7,9,7,3d4,3,,pokedex-swsh
 73,055,Golduck,WATER,,500,80,82,78,95,80,85,Water 1,Field,Medium Fast,17,5,11,11,10,12,10,3d4,6,,pokedex-swsh
-74,056,Mankey,FIGHTING,,305,40,80,35,35,45,70,Field,,Medium Fast,9,3,10,9,5,5,6,3d4,3,,pokedex-sm
-75,057,Primeape,FIGHTING,,455,65,105,60,60,70,95,Field,,Medium Fast,14,4,14,12,9,8,9,3d4,5,,pokedex-sm
+74,056,Mankey,FIGHTING,,305,40,80,35,35,45,70,Field,,Medium Fast,9,3,10,9,5,5,6,3d4,3,,pokedex-swsh
+75,057,Primeape,FIGHTING,,455,65,105,60,60,70,95,Field,,Medium Fast,14,4,14,12,9,8,9,3d4,5,,pokedex-swsh
 76,058,Growlithe,FIRE,,350,55,70,45,70,50,60,Field,,Slow,12,3,9,8,6,9,7,3d4,3,,pokedex-swsh
 77,058,Growlithe (Hisuian Growlithe),FIRE,ROCK,350,60,75,45,65,50,55,Field,,Slow,13,4,10,7,6,9,7,3d4,3,-h,pokedex-swsh
 78,059,Arcanine,FIRE,,555,90,110,80,100,80,95,Field,,Slow,19,5,14,12,10,13,10,3d4,6,,pokedex-swsh
@@ -89,16 +89,16 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 87,066,Machop,FIGHTING,,305,70,80,50,35,35,35,Human-Like,,Medium Slow,15,4,10,5,6,5,5,3d4,3,,pokedex-swsh
 88,067,Machoke,FIGHTING,,405,80,100,70,50,60,45,Human-Like,,Medium Slow,17,5,13,6,9,7,8,3d4,5,,pokedex-swsh
 89,068,Machamp,FIGHTING,,505,90,130,80,65,85,55,Human-Like,,Medium Slow,19,5,17,7,11,9,11,3d4,6,,pokedex-swsh
-90,069,Bellsprout,GRASS,POISON,300,50,75,35,70,30,40,Grass,,Medium Slow,11,3,10,5,5,9,4,3d4,2,,pokedex-sm
-91,070,Weepinbell,GRASS,POISON,390,65,90,50,85,45,55,Grass,,Medium Slow,14,4,12,7,6,11,6,3d4,3,,pokedex-sm
-92,071,Victreebel,GRASS,POISON,490,80,105,65,100,70,70,Grass,,Medium Slow,17,5,14,9,9,13,9,3d4,5,,pokedex-sm
+90,069,Bellsprout,GRASS,POISON,300,50,75,35,70,30,40,Grass,,Medium Slow,11,3,10,5,5,9,4,3d4,2,,pokedex-swsh
+91,070,Weepinbell,GRASS,POISON,390,65,90,50,85,45,55,Grass,,Medium Slow,14,4,12,7,6,11,6,3d4,3,,pokedex-swsh
+92,071,Victreebel,GRASS,POISON,490,80,105,65,100,70,70,Grass,,Medium Slow,17,5,14,9,9,13,9,3d4,5,,pokedex-swsh
 93,072,Tentacool,WATER,POISON,335,40,40,35,50,100,70,Water 3,,Slow,9,3,5,9,9,7,13,3d4,5,,pokedex-swsh
 94,073,Tentacruel,WATER,POISON,515,80,70,65,80,120,100,Water 3,,Slow,17,5,9,13,12,10,15,3d4,7,,pokedex-swsh
-95,074,Geodude,ROCK,GROUND,300,40,80,100,30,30,20,Mineral,,Medium Slow,9,3,10,3,9,4,4,3d4,5,,pokedex-sm
+95,074,Geodude,ROCK,GROUND,300,40,80,100,30,30,20,Mineral,,Medium Slow,9,3,10,3,9,4,4,3d4,5,,pokedex-swsh
 96,074,Alolan Geodude,ROCK,ELECTRIC,300,40,80,100,30,30,20,Mineral,,Medium Slow,9,3,10,3,9,4,4,3d4,5,-a,pokedex-swsh
-97,075,Graveler,ROCK,GROUND,390,55,95,115,45,45,35,Mineral,,Medium Slow,12,3,12,5,10,6,6,3d4,6,,pokedex-sm
+97,075,Graveler,ROCK,GROUND,390,55,95,115,45,45,35,Mineral,,Medium Slow,12,3,12,5,10,6,6,3d4,6,,pokedex-swsh
 98,075,Alolan Graveler,ROCK,ELECTRIC,390,55,95,115,45,45,35,Mineral,,Medium Slow,12,3,12,5,10,6,6,3d4,6,-a,pokedex-swsh
-99,076,Golem,ROCK,GROUND,495,80,120,130,55,65,45,Mineral,,Medium Slow,17,5,15,6,13,7,9,3d4,7,,pokedex-sm
+99,076,Golem,ROCK,GROUND,495,80,120,130,55,65,45,Mineral,,Medium Slow,17,5,15,6,13,7,9,3d4,7,,pokedex-swsh
 100,076,Alolan Golem,ROCK,ELECTRIC,495,80,120,130,55,65,45,Mineral,,Medium Slow,17,5,15,6,13,7,9,3d4,7,-a,pokedex-swsh
 101,077,Ponyta,FIRE,,410,50,85,55,65,65,90,Field,,Medium Fast,11,3,11,12,8,9,9,3d4,4,,pokedex-swsh
 102,077,Galarian Ponyta,PSYCHIC,,410,50,85,55,65,65,90,Field,,Medium Fast,11,3,11,12,8,9,9,3d4,4,-g,pokedex-swsh
@@ -113,13 +113,13 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 111,082,Magneton,ELECTRIC,STEEL,465,50,60,95,120,70,70,Mineral,,Medium Fast,11,3,8,9,11,15,9,3d4,6,,pokedex-swsh
 112,083,Farfetch'd,NORMAL,FLYING,377,52,90,55,58,62,60,Flying,Field,Medium Fast,11,3,12,8,8,8,8,3d4,4,,pokedex-swsh
 113,083,Galarian Farfetch'd,FIGHTING,,377,52,95,55,58,62,55,Flying,Field,Medium Fast,11,3,12,7,8,8,8,3d4,4,-g,pokedex-swsh
-114,084,Doduo,NORMAL,FLYING,310,35,85,45,35,35,75,Flying,,Medium Fast,8,2,11,10,5,5,5,3d4,3,,pokedex-sm
-115,085,Dodrio,NORMAL,FLYING,470,60,110,70,60,60,110,Flying,,Medium Fast,13,4,14,14,9,8,8,3d4,5,,pokedex-sm
-116,086,Seel,WATER,,325,65,45,55,45,70,45,Water 1,Field,Medium Fast,14,4,6,6,8,6,9,3d4,5,,pokedex-sm
-117,087,Dewgong,WATER,ICE,475,90,70,80,70,95,70,Water 1,Field,Medium Fast,19,5,9,9,11,9,12,3d4,7,,pokedex-sm
-118,088,Grimer,POISON,,325,80,80,50,40,50,25,Amorphous,,Medium Fast,17,5,10,4,7,5,7,3d4,4,,pokedex-sm
+114,084,Doduo,NORMAL,FLYING,310,35,85,45,35,35,75,Flying,,Medium Fast,8,2,11,10,5,5,5,3d4,3,,pokedex-swsh
+115,085,Dodrio,NORMAL,FLYING,470,60,110,70,60,60,110,Flying,,Medium Fast,13,4,14,14,9,8,8,3d4,5,,pokedex-swsh
+116,086,Seel,WATER,,325,65,45,55,45,70,45,Water 1,Field,Medium Fast,14,4,6,6,8,6,9,3d4,5,,pokedex-swsh
+117,087,Dewgong,WATER,ICE,475,90,70,80,70,95,70,Water 1,Field,Medium Fast,19,5,9,9,11,9,12,3d4,7,,pokedex-swsh
+118,088,Grimer,POISON,,325,80,80,50,40,50,25,Amorphous,,Medium Fast,17,5,10,4,7,5,7,3d4,4,,pokedex-swsh
 119,088,Alolan Grimer,POISON,DARK,325,80,80,50,40,50,25,Amorphous,,Medium Fast,17,5,10,4,7,5,7,3d4,4,-a,pokedex-swsh
-120,089,Muk,POISON,,500,105,105,75,65,100,50,Amorphous,,Medium Fast,22,6,14,7,11,9,13,3d4,7,,pokedex-sm
+120,089,Muk,POISON,,500,105,105,75,65,100,50,Amorphous,,Medium Fast,22,6,14,7,11,9,13,3d4,7,,pokedex-swsh
 121,089,Alolan Muk,POISON,DARK,500,105,105,75,65,100,50,Amorphous,,Medium Fast,22,6,14,7,11,9,13,3d4,7,-a,pokedex-swsh
 122,090,Shellder,WATER,,305,30,65,100,45,25,40,Water 3,,Slow,7,2,9,5,8,6,4,3d4,5,,pokedex-swsh
 123,091,Cloyster,WATER,ICE,525,50,95,180,85,45,70,Water 3,,Slow,11,3,12,9,15,11,6,3d4,9,,pokedex-swsh
@@ -128,13 +128,13 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 126,094,Gengar,GHOST,POISON,500,60,65,60,130,75,110,Amorphous,,Medium Slow,13,4,9,14,9,17,10,3d4,5,,pokedex-swsh
 127,094,Mega Gengar,GHOST,POISON,600,60,65,80,170,95,130,Amorphous,,Medium Slow,13,4,9,17,11,22,12,3d4,7,-m,pokedex-swsh
 128,095,Onix,ROCK,GROUND,385,35,45,160,30,45,70,Mineral,,Medium Fast,8,2,6,9,13,4,6,3d4,8,,pokedex-swsh
-129,096,Drowzee,PSYCHIC,,328,60,48,45,43,90,42,Human-Like,,Medium Fast,13,4,6,6,9,6,12,3d4,5,,pokedex-sm
-130,097,Hypno,PSYCHIC,,483,85,73,70,73,115,67,Human-Like,,Medium Fast,18,5,10,9,12,10,15,3d4,7,,pokedex-sm
+129,096,Drowzee,PSYCHIC,,328,60,48,45,43,90,42,Human-Like,,Medium Fast,13,4,6,6,9,6,12,3d4,5,,pokedex-swsh
+130,097,Hypno,PSYCHIC,,483,85,73,70,73,115,67,Human-Like,,Medium Fast,18,5,10,9,12,10,15,3d4,7,,pokedex-swsh
 131,098,Krabby,WATER,,325,30,105,90,25,25,50,Water 3,,Medium Fast,7,2,14,7,8,4,4,3d4,4,,pokedex-swsh
 132,099,Kingler,WATER,,475,55,130,115,50,50,75,Water 3,,Medium Fast,12,3,17,10,11,7,7,3d4,6,,pokedex-swsh
-133,100,Voltorb,ELECTRIC,,330,40,30,50,55,55,100,Mineral,,Medium Fast,9,3,4,13,7,7,7,3d4,4,,pokedex-sm
+133,100,Voltorb,ELECTRIC,,330,40,30,50,55,55,100,Mineral,,Medium Fast,9,3,4,13,7,7,7,3d4,4,,pokedex-swsh
 134,100,Voltorb (Hisuian Voltorb),ELECTRIC,GRASS,330,40,30,50,55,55,100,Mineral,,Medium Fast,9,3,4,13,7,7,7,3d4,4,-h,pokedex-swsh
-135,101,Electrode,ELECTRIC,,490,60,50,70,80,80,150,Mineral,,Medium Fast,13,4,7,19,10,10,10,3d4,6,,pokedex-sm
+135,101,Electrode,ELECTRIC,,490,60,50,70,80,80,150,Mineral,,Medium Fast,13,4,7,19,10,10,10,3d4,6,,pokedex-swsh
 136,101,Electrode (Hisuian Electrode),ELECTRIC,GRASS,490,60,50,70,80,80,150,Mineral,,Medium Fast,13,4,7,19,10,10,10,3d4,6,-h,pokedex-swsh
 137,102,Exeggcute,GRASS,PSYCHIC,325,60,40,80,60,45,40,Grass,,Slow,13,4,5,5,8,8,6,3d4,5,,pokedex-swsh
 138,103,Exeggutor,GRASS,PSYCHIC,530,95,95,85,125,75,55,Grass,,Slow,20,5,12,7,10,16,10,3d4,6,,pokedex-swsh
@@ -200,24 +200,24 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 198,150,Mega Mewtwo X,PSYCHIC,FIGHTING,780,106,190,100,154,100,130,No Eggs Discovered,,Slow,22,6,24,17,13,20,13,3d4,8,-mx,pokedex-swsh
 199,150,Mega Mewtwo Y,PSYCHIC,,780,106,150,70,194,120,140,No Eggs Discovered,,Slow,22,6,19,18,12,25,15,3d4,7,-my,pokedex-swsh
 200,151,Mew,PSYCHIC,,600,100,100,100,100,100,100,No Eggs Discovered,,Medium Slow,21,6,13,13,13,13,13,3d4,8,,pokedex-swsh
-201,152,Chikorita,GRASS,,318,45,49,65,49,65,45,Monster,Grass,Medium Slow,10,3,7,6,9,7,9,3d4,5,,pokedex-sm
-202,153,Bayleef,GRASS,,405,60,62,80,63,80,60,Monster,Grass,Medium Slow,13,4,8,8,10,8,10,3d4,6,,pokedex-sm
-203,154,Meganium,GRASS,,525,80,82,100,83,100,80,Monster,Grass,Medium Slow,17,5,11,10,13,11,13,3d4,8,,pokedex-sm
-204,155,Cyndaquil,FIRE,,309,39,52,43,60,50,65,Field,,Medium Slow,8,2,7,9,6,8,7,3d4,3,,pokedex-sm
-205,156,Quilava,FIRE,,405,58,64,58,80,65,80,Field,,Medium Slow,12,3,8,10,8,10,9,3d4,4,,pokedex-sm
-206,157,Typhlosion,FIRE,,534,78,84,78,109,85,100,Field,,Medium Slow,16,4,11,13,11,14,11,3d4,6,,pokedex-sm
+201,152,Chikorita,GRASS,,318,45,49,65,49,65,45,Monster,Grass,Medium Slow,10,3,7,6,9,7,9,3d4,5,,pokedex-swsh
+202,153,Bayleef,GRASS,,405,60,62,80,63,80,60,Monster,Grass,Medium Slow,13,4,8,8,10,8,10,3d4,6,,pokedex-swsh
+203,154,Meganium,GRASS,,525,80,82,100,83,100,80,Monster,Grass,Medium Slow,17,5,11,10,13,11,13,3d4,8,,pokedex-swsh
+204,155,Cyndaquil,FIRE,,309,39,52,43,60,50,65,Field,,Medium Slow,8,2,7,9,6,8,7,3d4,3,,pokedex-swsh
+205,156,Quilava,FIRE,,405,58,64,58,80,65,80,Field,,Medium Slow,12,3,8,10,8,10,9,3d4,4,,pokedex-swsh
+206,157,Typhlosion,FIRE,,534,78,84,78,109,85,100,Field,,Medium Slow,16,4,11,13,11,14,11,3d4,6,,pokedex-swsh
 207,157,Typhlosion (Hisuian Typhlosion),FIRE,GHOST,534,73,84,78,119,85,95,Field,,Medium Slow,15,4,11,12,11,15,11,3d4,6,-h,pokedex-swsh
-208,158,Totodile,WATER,,314,50,65,64,44,48,43,Monster,Water 1,Medium Slow,11,3,9,6,7,6,6,3d4,4,,pokedex-sm
-209,159,Croconaw,WATER,,405,65,80,80,59,63,58,Monster,Water 1,Medium Slow,14,4,10,8,9,8,8,3d4,5,,pokedex-sm
-210,160,Feraligatr,WATER,,530,85,105,100,79,83,78,Monster,Water 1,Medium Slow,18,5,14,10,12,10,11,3d4,7,,pokedex-sm
-211,161,Sentret,NORMAL,,215,35,46,34,35,45,20,Field,,Medium Fast,8,2,6,3,5,5,6,3d4,3,,pokedex-sm
-212,162,Furret,NORMAL,,415,85,76,64,45,55,90,Field,,Medium Fast,18,5,10,12,8,6,7,3d4,4,,pokedex-sm
+208,158,Totodile,WATER,,314,50,65,64,44,48,43,Monster,Water 1,Medium Slow,11,3,9,6,7,6,6,3d4,4,,pokedex-swsh
+209,159,Croconaw,WATER,,405,65,80,80,59,63,58,Monster,Water 1,Medium Slow,14,4,10,8,9,8,8,3d4,5,,pokedex-swsh
+210,160,Feraligatr,WATER,,530,85,105,100,79,83,78,Monster,Water 1,Medium Slow,18,5,14,10,12,10,11,3d4,7,,pokedex-swsh
+211,161,Sentret,NORMAL,,215,35,46,34,35,45,20,Field,,Medium Fast,8,2,6,3,5,5,6,3d4,3,,pokedex-swsh
+212,162,Furret,NORMAL,,415,85,76,64,45,55,90,Field,,Medium Fast,18,5,10,12,8,6,7,3d4,4,,pokedex-swsh
 213,163,Hoothoot,NORMAL,FLYING,262,60,30,30,36,56,50,Flying,,Medium Fast,13,4,4,7,6,5,7,3d4,3,,pokedex-swsh
 214,164,Noctowl,NORMAL,FLYING,452,100,50,50,86,96,70,Flying,,Medium Fast,21,6,7,9,10,11,12,3d4,5,,pokedex-swsh
-215,165,Ledyba,BUG,FLYING,265,40,20,30,40,80,55,Bug,,Fast,9,3,3,7,7,5,10,3d4,4,,pokedex-sm
-216,166,Ledian,BUG,FLYING,390,55,35,50,55,110,85,Bug,,Fast,12,3,5,11,10,7,14,3d4,6,,pokedex-sm
-217,167,Spinarak,BUG,POISON,250,40,60,40,40,40,30,Bug,,Fast,9,3,8,4,5,5,5,3d4,3,,pokedex-sm
-218,168,Ariados,BUG,POISON,400,70,90,70,60,70,40,Bug,,Fast,15,4,12,5,9,8,9,3d4,5,,pokedex-sm
+215,165,Ledyba,BUG,FLYING,265,40,20,30,40,80,55,Bug,,Fast,9,3,3,7,7,5,10,3d4,4,,pokedex-swsh
+216,166,Ledian,BUG,FLYING,390,55,35,50,55,110,85,Bug,,Fast,12,3,5,11,10,7,14,3d4,6,,pokedex-swsh
+217,167,Spinarak,BUG,POISON,250,40,60,40,40,40,30,Bug,,Fast,9,3,8,4,5,5,5,3d4,3,,pokedex-swsh
+218,168,Ariados,BUG,POISON,400,70,90,70,60,70,40,Bug,,Fast,15,4,12,5,9,8,9,3d4,5,,pokedex-swsh
 219,169,Crobat,POISON,FLYING,535,85,90,80,70,80,130,Flying,,Medium Fast,18,5,12,17,10,9,10,3d4,6,,pokedex-swsh
 220,170,Chinchou,WATER,ELECTRIC,330,75,38,38,56,56,67,Water 2,,Slow,16,4,5,9,6,7,7,3d4,3,,pokedex-swsh
 221,171,Lanturn,WATER,ELECTRIC,460,125,58,58,76,76,67,Water 2,,Slow,26,7,8,9,9,10,10,3d4,5,,pokedex-swsh
@@ -228,41 +228,41 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 226,176,Togetic,FAIRY,FLYING,405,55,40,85,80,105,40,Flying,Fairy,Fast,12,3,5,5,12,10,14,3d4,7,,pokedex-swsh
 227,177,Natu,PSYCHIC,FLYING,320,40,50,45,70,45,70,Flying,,Medium Fast,9,3,7,9,6,9,6,3d4,3,,pokedex-swsh
 228,178,Xatu,PSYCHIC,FLYING,470,65,75,70,95,70,95,Flying,,Medium Fast,14,4,10,12,9,12,9,3d4,5,,pokedex-swsh
-229,179,Mareep,ELECTRIC,,280,55,40,40,65,45,35,Monster,Field,Medium Slow,12,3,5,5,6,9,6,3d4,3,,pokedex-sm
-230,180,Flaaffy,ELECTRIC,,365,70,55,55,80,60,45,Monster,Field,Medium Slow,15,4,7,6,8,10,8,3d4,4,,pokedex-sm
-231,181,Ampharos,ELECTRIC,,510,90,75,85,115,90,55,Monster,Field,Medium Slow,19,5,10,7,11,15,12,3d4,7,,pokedex-sm
+229,179,Mareep,ELECTRIC,,280,55,40,40,65,45,35,Monster,Field,Medium Slow,12,3,5,5,6,9,6,3d4,3,,pokedex-swsh
+230,180,Flaaffy,ELECTRIC,,365,70,55,55,80,60,45,Monster,Field,Medium Slow,15,4,7,6,8,10,8,3d4,4,,pokedex-swsh
+231,181,Ampharos,ELECTRIC,,510,90,75,85,115,90,55,Monster,Field,Medium Slow,19,5,10,7,11,15,12,3d4,7,,pokedex-swsh
 232,181,Mega Ampharos,ELECTRIC,DRAGON,610,90,95,105,165,110,45,Monster,Field,Medium Slow,19,5,12,6,14,21,14,3d4,8,-m,pokedex-swsh
 233,182,Bellossom,GRASS,,490,75,80,95,90,100,50,Grass,,Medium Slow,16,4,10,7,13,12,13,3d4,7,,pokedex-swsh
 234,183,Marill,WATER,FAIRY,250,70,20,50,20,50,40,Water 1,Fairy,Fast,15,4,3,5,7,3,7,3d4,4,,pokedex-swsh
 235,184,Azumarill,WATER,FAIRY,420,100,50,80,60,80,50,Water 1,Fairy,Fast,21,6,7,7,10,8,10,3d4,6,,pokedex-swsh
 236,185,Sudowoodo,ROCK,,410,70,100,115,30,65,30,Mineral,,Medium Fast,15,4,13,4,12,4,9,3d4,7,,pokedex-swsh
 237,186,Politoed,WATER,,500,90,75,75,90,100,70,Water 1,,Medium Slow,19,5,10,9,11,12,13,3d4,7,,pokedex-swsh
-238,187,Hoppip,GRASS,FLYING,250,35,35,40,35,55,50,Fairy,Grass,Medium Slow,8,2,5,7,6,5,7,3d4,3,,pokedex-sm
-239,188,Skiploom,GRASS,FLYING,340,55,45,50,45,65,80,Fairy,Grass,Medium Slow,12,3,6,10,8,6,9,3d4,4,,pokedex-sm
-240,189,Jumpluff,GRASS,FLYING,460,75,55,70,55,95,110,Fairy,Grass,Medium Slow,16,4,7,14,11,7,12,3d4,6,,pokedex-sm
-241,190,Aipom,NORMAL,,360,55,70,55,40,55,85,Field,,Fast,12,3,9,11,7,5,7,3d4,4,,pokedex-sm
-242,191,Sunkern,GRASS,,180,30,30,30,30,30,30,Grass,,Medium Slow,7,2,4,4,4,4,4,3d4,2,,pokedex-sm
-243,192,Sunflora,GRASS,,425,75,75,55,105,85,30,Grass,,Medium Slow,16,4,10,4,9,14,11,3d4,5,,pokedex-sm
-244,193,Yanma,BUG,FLYING,390,65,65,45,75,45,95,Bug,,Medium Fast,14,4,9,12,6,10,6,3d4,3,,pokedex-sm
+238,187,Hoppip,GRASS,FLYING,250,35,35,40,35,55,50,Fairy,Grass,Medium Slow,8,2,5,7,6,5,7,3d4,3,,pokedex-swsh
+239,188,Skiploom,GRASS,FLYING,340,55,45,50,45,65,80,Fairy,Grass,Medium Slow,12,3,6,10,8,6,9,3d4,4,,pokedex-swsh
+240,189,Jumpluff,GRASS,FLYING,460,75,55,70,55,95,110,Fairy,Grass,Medium Slow,16,4,7,14,11,7,12,3d4,6,,pokedex-swsh
+241,190,Aipom,NORMAL,,360,55,70,55,40,55,85,Field,,Fast,12,3,9,11,7,5,7,3d4,4,,pokedex-swsh
+242,191,Sunkern,GRASS,,180,30,30,30,30,30,30,Grass,,Medium Slow,7,2,4,4,4,4,4,3d4,2,,pokedex-swsh
+243,192,Sunflora,GRASS,,425,75,75,55,105,85,30,Grass,,Medium Slow,16,4,10,4,9,14,11,3d4,5,,pokedex-swsh
+244,193,Yanma,BUG,FLYING,390,65,65,45,75,45,95,Bug,,Medium Fast,14,4,9,12,6,10,6,3d4,3,,pokedex-swsh
 245,194,Wooper,WATER,GROUND,210,55,45,45,25,25,15,Water 1,Field,Medium Fast,12,3,6,2,5,4,4,3d4,2,,pokedex-swsh
 246,195,Quagsire,WATER,GROUND,430,95,85,85,65,65,35,Water 1,Field,Medium Fast,20,5,11,5,10,9,9,3d4,6,,pokedex-swsh
 247,196,Espeon,PSYCHIC,,525,65,65,60,130,95,110,Field,,Medium Fast,14,4,9,14,10,17,12,3d4,6,,pokedex-swsh
 248,197,Umbreon,DARK,,525,95,65,110,60,130,65,Field,,Medium Fast,20,5,9,9,15,8,17,3d4,9,,pokedex-swsh
-249,198,Murkrow,DARK,FLYING,405,60,85,42,85,42,91,Flying,,Medium Slow,13,4,11,12,6,11,6,3d4,3,,pokedex-sm
+249,198,Murkrow,DARK,FLYING,405,60,85,42,85,42,91,Flying,,Medium Slow,13,4,11,12,6,11,6,3d4,3,,pokedex-swsh
 250,199,Slowking,WATER,PSYCHIC,490,95,75,80,100,110,30,Monster,Water 1,Medium Fast,20,5,10,4,12,13,14,3d4,7,,pokedex-swsh
 251,199,Galarian Slowking,POISON,PSYCHIC,490,95,65,80,110,110,30,Monster,Water 1,Medium Fast,20,5,9,4,12,14,14,3d4,7,-g,pokedex-swsh
-252,200,Misdreavus,GHOST,,435,60,60,60,85,85,85,Amorphous,,Fast,13,4,8,11,10,11,11,3d4,5,,pokedex-sm
-253,201,Unown,PSYCHIC,,336,48,72,48,72,48,48,No Eggs Discovered,,Medium Fast,10,3,9,6,6,9,6,3d4,3,,pokedex-sm
+252,200,Misdreavus,GHOST,,435,60,60,60,85,85,85,Amorphous,,Fast,13,4,8,11,10,11,11,3d4,5,,pokedex-swsh
+253,201,Unown,PSYCHIC,,336,48,72,48,72,48,48,No Eggs Discovered,,Medium Fast,10,3,9,6,6,9,6,3d4,3,,pokedex-swsh
 254,202,Wobbuffet,PSYCHIC,,405,190,33,58,33,58,33,Amorphous,,Medium Fast,39,10,5,5,8,5,8,3d4,4,,pokedex-swsh
-255,203,Girafarig,NORMAL,PSYCHIC,455,70,80,65,90,65,85,Field,,Medium Fast,15,4,10,11,9,12,9,3d4,5,,pokedex-sm
-256,204,Pineco,BUG,,290,50,65,90,35,35,15,Bug,,Medium Fast,11,3,9,2,8,5,5,3d4,5,,pokedex-sm
-257,205,Forretress,BUG,STEEL,465,75,90,140,60,60,40,Bug,,Medium Fast,16,4,12,5,13,8,8,3d4,8,,pokedex-sm
+255,203,Girafarig,NORMAL,PSYCHIC,455,70,80,65,90,65,85,Field,,Medium Fast,15,4,10,11,9,12,9,3d4,5,,pokedex-swsh
+256,204,Pineco,BUG,,290,50,65,90,35,35,15,Bug,,Medium Fast,11,3,9,2,8,5,5,3d4,5,,pokedex-swsh
+257,205,Forretress,BUG,STEEL,465,75,90,140,60,60,40,Bug,,Medium Fast,16,4,12,5,13,8,8,3d4,8,,pokedex-swsh
 258,206,Dunsparce,NORMAL,,415,100,70,70,65,65,45,Field,,Medium Fast,21,6,9,6,9,9,9,3d4,5,,pokedex-swsh
-259,207,Gligar,GROUND,FLYING,430,65,75,105,35,65,85,Bug,,Medium Slow,14,4,10,11,11,5,9,3d4,6,,pokedex-sm
+259,207,Gligar,GROUND,FLYING,430,65,75,105,35,65,85,Bug,,Medium Slow,14,4,10,11,11,5,9,3d4,6,,pokedex-swsh
 260,208,Steelix,STEEL,GROUND,510,75,85,200,55,65,30,Mineral,,Medium Fast,16,4,11,4,17,7,9,3d4,10,,pokedex-swsh
 261,208,Mega Steelix,STEEL,GROUND,610,75,125,230,55,95,30,Mineral,,Medium Fast,16,4,16,4,21,7,12,3d4,13,-m,pokedex-swsh
-262,209,Snubbull,FAIRY,,300,60,80,50,40,40,30,Field,Fairy,Fast,13,4,10,4,6,5,5,3d4,3,,pokedex-sm
-263,210,Granbull,FAIRY,,450,90,120,75,60,60,45,Field,Fairy,Fast,19,5,15,6,9,8,8,3d4,5,,pokedex-sm
+262,209,Snubbull,FAIRY,,300,60,80,50,40,40,30,Field,Fairy,Fast,13,4,10,4,6,5,5,3d4,3,,pokedex-swsh
+263,210,Granbull,FAIRY,,450,90,120,75,60,60,45,Field,Fairy,Fast,19,5,15,6,9,8,8,3d4,5,,pokedex-swsh
 264,211,Qwilfish,WATER,POISON,440,65,95,85,55,55,85,Water 2,,Medium Fast,14,4,12,11,9,7,7,3d4,5,,pokedex-swsh
 265,211,Qwilfish (Hisuian Qwilfish),DARK,POISON,440,65,95,85,55,55,85,Water 2,,Medium Fast,14,4,12,11,9,7,7,3d4,5,-h,pokedex-swsh
 266,212,Scizor,BUG,STEEL,500,70,130,100,55,80,65,Bug,,Medium Fast,15,4,17,9,12,7,10,3d4,7,,pokedex-swsh
@@ -272,10 +272,10 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 270,214,Mega Heracross,BUG,FIGHTING,600,80,185,115,40,105,75,Bug,,Slow,17,5,24,10,14,5,14,3d4,8,-m,pokedex-swsh
 271,215,Sneasel,DARK,ICE,430,55,95,55,35,75,115,Field,,Medium Slow,12,3,12,15,9,5,10,3d4,5,,pokedex-swsh
 272,215,Sneasel (Hisuian Sneasel),POISON,FIGHTING,430,55,95,55,35,75,115,Field,,Medium Slow,12,3,12,15,9,5,10,3d4,5,-h,pokedex-swsh
-273,216,Teddiursa,NORMAL,,330,60,80,50,50,50,40,Field,,Medium Fast,13,4,10,5,7,7,7,3d4,4,,pokedex-sm
-274,217,Ursaring,NORMAL,,500,90,130,75,75,75,55,Field,,Medium Fast,19,5,17,7,10,10,10,3d4,6,,pokedex-sm
-275,218,Slugma,FIRE,,250,40,40,40,70,40,20,Amorphous,,Medium Fast,9,3,5,3,5,9,5,3d4,3,,pokedex-sm
-276,219,Magcargo,FIRE,ROCK,430,60,50,120,90,80,30,Amorphous,,Medium Fast,13,4,7,4,13,12,10,3d4,8,,pokedex-sm
+273,216,Teddiursa,NORMAL,,330,60,80,50,50,50,40,Field,,Medium Fast,13,4,10,5,7,7,7,3d4,4,,pokedex-swsh
+274,217,Ursaring,NORMAL,,500,90,130,75,75,75,55,Field,,Medium Fast,19,5,17,7,10,10,10,3d4,6,,pokedex-swsh
+275,218,Slugma,FIRE,,250,40,40,40,70,40,20,Amorphous,,Medium Fast,9,3,5,3,5,9,5,3d4,3,,pokedex-swsh
+276,219,Magcargo,FIRE,ROCK,430,60,50,120,90,80,30,Amorphous,,Medium Fast,13,4,7,4,13,12,10,3d4,8,,pokedex-swsh
 277,220,Swinub,ICE,GROUND,250,50,50,40,30,30,50,Field,,Slow,11,3,7,7,5,4,4,3d4,2,,pokedex-swsh
 278,221,Piloswine,ICE,GROUND,450,100,100,80,60,60,50,Field,,Slow,21,6,13,7,9,8,8,3d4,5,,pokedex-swsh
 279,222,Corsola,WATER,ROCK,410,65,55,95,65,95,35,Water 1,Water 3,Fast,14,4,7,5,12,9,12,3d4,7,,pokedex-swsh
@@ -285,15 +285,15 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 283,225,Delibird,ICE,FLYING,330,45,55,45,65,45,75,Water 1,Field,Fast,10,3,7,10,6,9,6,3d4,3,,pokedex-swsh
 284,226,Mantine,WATER,FLYING,485,85,40,70,80,140,70,Water 1,,Slow,18,5,5,9,14,10,18,3d4,8,,pokedex-swsh
 285,227,Skarmory,STEEL,FLYING,465,65,80,140,40,70,70,Flying,,Slow,14,4,10,9,14,5,9,3d4,8,,pokedex-swsh
-286,228,Houndour,DARK,FIRE,330,45,60,30,80,50,65,Field,,Slow,10,3,8,9,5,10,7,3d4,3,,pokedex-sm
-287,229,Houndoom,DARK,FIRE,500,75,90,50,110,80,95,Field,,Slow,16,4,12,12,9,14,10,3d4,5,,pokedex-sm
+286,228,Houndour,DARK,FIRE,330,45,60,30,80,50,65,Field,,Slow,10,3,8,9,5,10,7,3d4,3,,pokedex-swsh
+287,229,Houndoom,DARK,FIRE,500,75,90,50,110,80,95,Field,,Slow,16,4,12,12,9,14,10,3d4,5,,pokedex-swsh
 288,229,Mega Houndoom,DARK,FIRE,600,75,90,90,140,90,115,Field,,Slow,16,4,12,15,12,18,12,3d4,7,-m,pokedex-swsh
 289,230,Kingdra,WATER,DRAGON,540,75,95,95,95,95,85,Water 1,Dragon,Medium Fast,16,4,12,11,12,12,12,3d4,7,,pokedex-swsh
-290,231,Phanpy,GROUND,,330,90,60,60,40,40,40,Field,,Medium Fast,19,5,8,5,7,5,5,3d4,4,,pokedex-sm
-291,232,Donphan,GROUND,,500,90,120,120,60,60,50,Field,,Medium Fast,19,5,15,7,12,8,8,3d4,7,,pokedex-sm
+290,231,Phanpy,GROUND,,330,90,60,60,40,40,40,Field,,Medium Fast,19,5,8,5,7,5,5,3d4,4,,pokedex-swsh
+291,232,Donphan,GROUND,,500,90,120,120,60,60,50,Field,,Medium Fast,19,5,15,7,12,8,8,3d4,7,,pokedex-swsh
 292,233,Porygon2,NORMAL,,515,85,80,90,105,95,60,Mineral,,Medium Fast,18,5,10,8,12,14,12,3d4,7,,pokedex-swsh
-293,234,Stantler,NORMAL,,465,73,95,62,85,65,85,Field,,Slow,15,4,12,11,8,11,9,3d4,5,,pokedex-sm
-294,235,Smeargle,NORMAL,,250,55,20,35,20,45,75,Field,,Fast,12,3,3,10,5,3,6,3d4,3,,pokedex-sm
+293,234,Stantler,NORMAL,,465,73,95,62,85,65,85,Field,,Slow,15,4,12,11,8,11,9,3d4,5,,pokedex-swsh
+294,235,Smeargle,NORMAL,,250,55,20,35,20,45,75,Field,,Fast,12,3,3,10,5,3,6,3d4,3,,pokedex-swsh
 295,236,Tyrogue,FIGHTING,,210,35,35,35,35,35,35,No Eggs Discovered,,Medium Fast,8,2,5,5,5,5,5,3d4,2,,pokedex-swsh
 296,237,Hitmontop,FIGHTING,,455,50,95,95,35,110,70,Human-Like,,Medium Fast,11,3,12,9,13,5,14,3d4,8,,pokedex-swsh
 297,238,Smoochum,ICE,PSYCHIC,305,45,30,15,85,65,65,No Eggs Discovered,,Medium Fast,10,3,4,9,5,11,9,3d4,3,,pokedex-swsh
@@ -323,50 +323,50 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 321,259,Marshtomp,WATER,GROUND,405,70,85,70,60,70,50,Monster,Water 1,Medium Slow,15,4,11,7,9,8,9,3d4,5,,pokedex-swsh
 322,260,Swampert,WATER,GROUND,535,100,110,90,85,90,60,Monster,Water 1,Medium Slow,21,6,14,8,12,11,12,3d4,7,,pokedex-swsh
 323,260,Mega Swampert,WATER,GROUND,635,100,150,110,95,110,70,Monster,Water 1,Medium Slow,21,6,19,9,14,12,14,3d4,8,-m,pokedex-swsh
-324,261,Poochyena,DARK,,220,35,55,35,30,30,35,Field,,Medium Fast,8,2,7,5,5,4,4,3d4,2,,pokedex-sm
-325,262,Mightyena,DARK,,420,70,90,70,60,60,70,Field,,Medium Fast,15,4,12,9,9,8,8,3d4,5,,pokedex-sm
+324,261,Poochyena,DARK,,220,35,55,35,30,30,35,Field,,Medium Fast,8,2,7,5,5,4,4,3d4,2,,pokedex-swsh
+325,262,Mightyena,DARK,,420,70,90,70,60,60,70,Field,,Medium Fast,15,4,12,9,9,8,8,3d4,5,,pokedex-swsh
 326,263,Zigzagoon,NORMAL,,240,38,30,41,30,41,60,Field,,Medium Fast,8,2,4,8,6,4,6,3d4,3,,pokedex-swsh
 327,263,Galarian Zigzagoon,DARK,NORMAL,240,38,30,41,30,41,60,Field,,Medium Fast,8,2,4,8,6,4,6,3d4,3,-g,pokedex-swsh
 328,264,Linoone,NORMAL,,420,78,70,61,50,61,100,Field,,Medium Fast,16,4,9,13,8,7,8,3d4,4,,pokedex-swsh
 329,264,Galarian Linoone,DARK,NORMAL,420,78,70,61,50,61,100,Field,,Medium Fast,16,4,9,13,8,7,8,3d4,4,-g,pokedex-swsh
-330,265,Wurmple,BUG,,195,45,45,35,20,30,20,Bug,,Medium Fast,10,3,6,3,5,3,4,3d4,2,,pokedex-sm
-331,266,Silcoon,BUG,,205,50,35,55,25,25,15,Bug,,Medium Fast,11,3,5,2,5,4,4,3d4,3,,pokedex-sm
-332,267,Beautifly,BUG,FLYING,395,60,70,50,100,50,65,Bug,,Medium Fast,13,4,9,9,7,13,7,3d4,4,,pokedex-sm
-333,268,Cascoon,BUG,,205,50,35,55,25,25,15,Bug,,Medium Fast,11,3,5,2,5,4,4,3d4,3,,pokedex-sm
-334,269,Dustox,BUG,POISON,385,60,50,70,50,90,65,Bug,,Medium Fast,13,4,7,9,10,7,12,3d4,6,,pokedex-sm
+330,265,Wurmple,BUG,,195,45,45,35,20,30,20,Bug,,Medium Fast,10,3,6,3,5,3,4,3d4,2,,pokedex-swsh
+331,266,Silcoon,BUG,,205,50,35,55,25,25,15,Bug,,Medium Fast,11,3,5,2,5,4,4,3d4,3,,pokedex-swsh
+332,267,Beautifly,BUG,FLYING,395,60,70,50,100,50,65,Bug,,Medium Fast,13,4,9,9,7,13,7,3d4,4,,pokedex-swsh
+333,268,Cascoon,BUG,,205,50,35,55,25,25,15,Bug,,Medium Fast,11,3,5,2,5,4,4,3d4,3,,pokedex-swsh
+334,269,Dustox,BUG,POISON,385,60,50,70,50,90,65,Bug,,Medium Fast,13,4,7,9,10,7,12,3d4,6,,pokedex-swsh
 335,270,Lotad,WATER,GRASS,220,40,30,30,40,50,30,Water 1,Grass,Medium Slow,9,3,4,4,5,5,7,3d4,3,,pokedex-swsh
 336,271,Lombre,WATER,GRASS,340,60,50,50,60,70,50,Water 1,Grass,Medium Slow,13,4,7,7,8,8,9,3d4,4,,pokedex-swsh
 337,272,Ludicolo,WATER,GRASS,480,80,70,70,90,100,70,Water 1,Grass,Medium Slow,17,5,9,9,11,12,13,3d4,6,,pokedex-swsh
 338,273,Seedot,GRASS,,220,40,40,50,30,30,30,Field,Grass,Medium Slow,9,3,5,4,5,4,4,3d4,3,,pokedex-swsh
 339,274,Nuzleaf,GRASS,DARK,340,70,70,40,60,40,60,Field,Grass,Medium Slow,15,4,9,8,5,8,5,3d4,3,,pokedex-swsh
 340,275,Shiftry,GRASS,DARK,480,90,100,60,90,60,80,Field,Grass,Medium Slow,19,5,13,10,8,12,8,3d4,4,,pokedex-swsh
-341,276,Taillow,NORMAL,FLYING,270,40,55,30,30,30,85,Flying,,Medium Slow,9,3,7,11,4,4,4,3d4,2,,pokedex-sm
-342,277,Swellow,NORMAL,FLYING,455,60,85,60,75,50,125,Flying,,Medium Slow,13,4,11,16,7,10,7,3d4,4,,pokedex-sm
+341,276,Taillow,NORMAL,FLYING,270,40,55,30,30,30,85,Flying,,Medium Slow,9,3,7,11,4,4,4,3d4,2,,pokedex-swsh
+342,277,Swellow,NORMAL,FLYING,455,60,85,60,75,50,125,Flying,,Medium Slow,13,4,11,16,7,10,7,3d4,4,,pokedex-swsh
 343,278,Wingull,WATER,FLYING,270,40,30,30,55,30,85,Water 1,Flying,Medium Fast,9,3,4,11,4,7,4,3d4,2,,pokedex-swsh
 344,279,Pelipper,WATER,FLYING,440,60,50,100,95,70,65,Water 1,Flying,Medium Fast,13,4,7,9,11,12,9,3d4,6,,pokedex-swsh
 345,280,Ralts,PSYCHIC,FAIRY,198,28,25,25,45,35,40,Human-Like*,Amorphous,Slow,6,2,4,5,4,6,5,3d4,2,,pokedex-swsh
 346,281,Kirlia,PSYCHIC,FAIRY,278,38,35,35,65,55,50,Human-Like*,Amorphous,Slow,8,2,5,7,6,9,7,3d4,3,,pokedex-swsh
 347,282,Gardevoir,PSYCHIC,FAIRY,518,68,65,65,125,115,80,Human-Like*,Amorphous,Slow,14,4,9,10,12,16,15,3d4,7,,pokedex-swsh
 348,282,Mega Gardevoir,PSYCHIC,FAIRY,618,68,85,65,165,135,100,Human-Like*,Amorphous,Slow,14,4,11,13,13,21,17,3d4,8,-m,pokedex-swsh
-349,283,Surskit,BUG,WATER,269,40,30,32,50,52,65,Water 1,Bug,Medium Fast,9,3,4,9,6,7,7,3d4,3,,pokedex-sm
-350,284,Masquerain,BUG,FLYING,454,70,60,62,100,82,80,Water 1,Bug,Medium Fast,15,4,8,10,9,13,11,3d4,5,,pokedex-sm
-351,285,Shroomish,GRASS,,295,60,40,60,40,60,35,Fairy,Grass,Fluctuating,13,4,5,5,8,5,8,3d4,4,,pokedex-sm
-352,286,Breloom,GRASS,FIGHTING,460,60,130,80,60,60,70,Fairy,Grass,Fluctuating,13,4,17,9,9,8,8,3d4,5,,pokedex-sm
-353,287,Slakoth,NORMAL,,280,60,60,60,35,35,30,Field,,Slow,13,4,8,4,6,5,5,3d4,3,,pokedex-sm
-354,288,Vigoroth,NORMAL,,440,80,80,80,55,55,90,Field,,Slow,17,5,10,12,9,7,7,3d4,5,,pokedex-sm
-355,289,Slaking,NORMAL,,670,150,160,100,95,65,100,Field,,Slow,31,8,20,13,11,12,9,3d4,6,,pokedex-sm
+349,283,Surskit,BUG,WATER,269,40,30,32,50,52,65,Water 1,Bug,Medium Fast,9,3,4,9,6,7,7,3d4,3,,pokedex-swsh
+350,284,Masquerain,BUG,FLYING,454,70,60,62,100,82,80,Water 1,Bug,Medium Fast,15,4,8,10,9,13,11,3d4,5,,pokedex-swsh
+351,285,Shroomish,GRASS,,295,60,40,60,40,60,35,Fairy,Grass,Fluctuating,13,4,5,5,8,5,8,3d4,4,,pokedex-swsh
+352,286,Breloom,GRASS,FIGHTING,460,60,130,80,60,60,70,Fairy,Grass,Fluctuating,13,4,17,9,9,8,8,3d4,5,,pokedex-swsh
+353,287,Slakoth,NORMAL,,280,60,60,60,35,35,30,Field,,Slow,13,4,8,4,6,5,5,3d4,3,,pokedex-swsh
+354,288,Vigoroth,NORMAL,,440,80,80,80,55,55,90,Field,,Slow,17,5,10,12,9,7,7,3d4,5,,pokedex-swsh
+355,289,Slaking,NORMAL,,670,150,160,100,95,65,100,Field,,Slow,31,8,20,13,11,12,9,3d4,6,,pokedex-swsh
 356,290,Nincada,BUG,GROUND,266,31,45,90,30,30,40,Bug,,Erratic,7,2,6,5,8,4,4,3d4,4,,pokedex-swsh
 357,291,Ninjask,BUG,FLYING,456,61,90,45,50,50,160,Bug,,Erratic,13,4,12,20,6,7,7,3d4,3,,pokedex-swsh
 358,292,Shedinja,BUG,GHOST,236,1,90,45,30,30,40,Mineral,,Erratic,1,1,12,5,5,4,4,3d4,3,,pokedex-swsh
 359,293,Whismur,NORMAL,,240,64,51,23,51,23,28,Monster,Field,Medium Slow,13,4,7,4,3,7,3,3d4,1,,pokedex-swsh
 360,294,Loudred,NORMAL,,360,84,71,43,71,43,48,Monster,Field,Medium Slow,17,5,9,6,6,9,6,3d4,3,,pokedex-swsh
 361,295,Exploud,NORMAL,,490,104,91,63,91,73,68,Monster,Field,Medium Slow,21,6,12,9,9,12,10,3d4,5,,pokedex-swsh
-362,296,Makuhita,FIGHTING,,237,72,60,30,20,30,25,Human-Like,,Fluctuating,15,4,8,4,4,3,4,3d4,2,,pokedex-sm
-363,297,Hariyama,FIGHTING,,474,144,120,60,40,60,50,Human-Like,,Fluctuating,29,8,15,7,8,5,8,3d4,4,,pokedex-sm
+362,296,Makuhita,FIGHTING,,237,72,60,30,20,30,25,Human-Like,,Fluctuating,15,4,8,4,4,3,4,3d4,2,,pokedex-swsh
+363,297,Hariyama,FIGHTING,,474,144,120,60,40,60,50,Human-Like,,Fluctuating,29,8,15,7,8,5,8,3d4,4,,pokedex-swsh
 364,298,Azurill,NORMAL,FAIRY,190,50,20,40,20,40,20,No Eggs Discovered,,Fast,11,3,3,3,5,3,5,3d4,3,,pokedex-swsh
-365,299,Nosepass,ROCK,,375,30,45,135,45,90,30,Mineral,,Medium Fast,7,2,6,4,15,6,12,3d4,9,,pokedex-sm
-366,300,Skitty,NORMAL,,260,50,45,45,35,35,50,Field,Fairy,Fast,11,3,6,7,5,5,5,3d4,3,,pokedex-sm
-367,301,Delcatty,NORMAL,,400,70,65,65,55,55,90,Field,Fairy,Fast,15,4,9,12,8,7,7,3d4,4,,pokedex-sm
+365,299,Nosepass,ROCK,,375,30,45,135,45,90,30,Mineral,,Medium Fast,7,2,6,4,15,6,12,3d4,9,,pokedex-swsh
+366,300,Skitty,NORMAL,,260,50,45,45,35,35,50,Field,Fairy,Fast,11,3,6,7,5,5,5,3d4,3,,pokedex-swsh
+367,301,Delcatty,NORMAL,,400,70,65,65,55,55,90,Field,Fairy,Fast,15,4,9,12,8,7,7,3d4,4,,pokedex-swsh
 368,302,Sableye,DARK,GHOST,380,50,75,75,65,65,50,Human-Like,,Medium Slow,11,3,10,7,9,9,9,3d4,5,,pokedex-swsh
 369,302,Mega Sableye,DARK,GHOST,480,50,85,125,85,115,20,Human-Like,,Medium Slow,11,3,11,3,15,11,15,3d4,9,-m,pokedex-swsh
 370,303,Mawile,STEEL,FAIRY,380,50,85,85,55,55,50,Field,Fairy,Fast,11,3,11,7,9,7,7,3d4,5,,pokedex-swsh
@@ -375,41 +375,41 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 373,305,Lairon,STEEL,ROCK,430,60,90,140,50,50,40,Monster,,Slow,13,4,12,5,12,7,7,3d4,7,,pokedex-swsh
 374,306,Aggron,STEEL,ROCK,530,70,110,180,60,60,50,Monster,,Slow,15,4,14,7,15,8,8,3d4,9,,pokedex-swsh
 375,306,Mega Aggron,STEEL,,630,70,140,230,60,80,50,Monster,,Slow,15,4,18,7,20,8,10,3d4,12,-m,pokedex-swsh
-376,307,Meditite,FIGHTING,PSYCHIC,280,30,40,55,40,55,60,Human-Like,,Medium Fast,7,2,5,8,7,5,7,3d4,4,,pokedex-sm
-377,308,Medicham,FIGHTING,PSYCHIC,410,60,60,75,60,75,80,Human-Like,,Medium Fast,13,4,8,10,10,8,10,3d4,6,,pokedex-sm
+376,307,Meditite,FIGHTING,PSYCHIC,280,30,40,55,40,55,60,Human-Like,,Medium Fast,7,2,5,8,7,5,7,3d4,4,,pokedex-swsh
+377,308,Medicham,FIGHTING,PSYCHIC,410,60,60,75,60,75,80,Human-Like,,Medium Fast,13,4,8,10,10,8,10,3d4,6,,pokedex-swsh
 378,308,Mega Medicham,FIGHTING,PSYCHIC,510,60,100,85,80,85,100,Human-Like,,Medium Fast,13,4,13,13,11,10,11,3d4,6,-m,pokedex-swsh
 379,309,Electrike,ELECTRIC,,295,40,45,40,65,40,65,Field,,Slow,9,3,6,9,5,9,5,3d4,3,,pokedex-swsh
 380,310,Manectric,ELECTRIC,,475,70,75,60,105,60,105,Field,,Slow,15,4,10,14,8,14,8,3d4,4,,pokedex-swsh
 381,310,Mega Manectric,ELECTRIC,,575,70,75,80,135,80,135,Field,,Slow,15,4,10,17,10,17,10,3d4,6,-m,pokedex-swsh
-382,311,Plusle,ELECTRIC,,405,60,50,40,85,75,95,Fairy,,Medium Fast,13,4,7,12,8,11,10,3d4,4,,pokedex-sm
-383,312,Minun,ELECTRIC,,405,60,40,50,75,85,95,Fairy,,Medium Fast,13,4,5,12,9,10,11,3d4,5,,pokedex-sm
-384,313,Volbeat,BUG,,430,65,73,75,47,85,85,Bug,Human-Like,Erratic,14,4,10,11,10,6,11,3d4,6,,pokedex-sm
-385,314,Illumise,BUG,,430,65,47,75,73,85,85,Bug,Human-Like,Fluctuating,14,4,6,11,10,10,11,3d4,6,,pokedex-sm
+382,311,Plusle,ELECTRIC,,405,60,50,40,85,75,95,Fairy,,Medium Fast,13,4,7,12,8,11,10,3d4,4,,pokedex-swsh
+383,312,Minun,ELECTRIC,,405,60,40,50,75,85,95,Fairy,,Medium Fast,13,4,5,12,9,10,11,3d4,5,,pokedex-swsh
+384,313,Volbeat,BUG,,430,65,73,75,47,85,85,Bug,Human-Like,Erratic,14,4,10,11,10,6,11,3d4,6,,pokedex-swsh
+385,314,Illumise,BUG,,430,65,47,75,73,85,85,Bug,Human-Like,Fluctuating,14,4,6,11,10,10,11,3d4,6,,pokedex-swsh
 386,315,Roselia,GRASS,POISON,400,50,60,45,100,80,65,Fairy,Grass,Medium Slow,11,3,8,9,8,13,10,3d4,5,,pokedex-swsh
-387,316,Gulpin,POISON,,302,70,43,53,43,53,40,Amorphous,,Fluctuating,15,4,6,5,7,6,7,3d4,4,,pokedex-sm
-388,317,Swalot,POISON,,467,100,73,83,73,83,55,Amorphous,,Fluctuating,21,6,10,7,11,10,11,3d4,6,,pokedex-sm
+387,316,Gulpin,POISON,,302,70,43,53,43,53,40,Amorphous,,Fluctuating,15,4,6,5,7,6,7,3d4,4,,pokedex-swsh
+388,317,Swalot,POISON,,467,100,73,83,73,83,55,Amorphous,,Fluctuating,21,6,10,7,11,10,11,3d4,6,,pokedex-swsh
 389,318,Carvanha,WATER,DARK,305,45,90,20,65,20,65,Water 2,,Slow,10,3,12,9,3,9,3,3d4,1,,pokedex-swsh
 390,319,Sharpedo,WATER,DARK,460,70,120,40,95,40,95,Water 2,,Slow,15,4,15,12,5,12,5,3d4,3,,pokedex-swsh
 391,319,Mega Sharpedo,WATER,DARK,560,70,140,70,110,65,105,Water 2,,Slow,15,4,18,14,9,14,9,3d4,5,-m,pokedex-swsh
 392,320,Wailmer,WATER,,400,130,70,35,70,35,60,Field,Water 2,Fluctuating,27,7,9,8,5,9,5,3d4,2,,pokedex-swsh
 393,321,Wailord,WATER,,500,170,90,45,90,45,60,Field,Water 2,Fluctuating,35,9,12,8,6,12,6,3d4,3,,pokedex-swsh
-394,322,Numel,FIRE,GROUND,305,60,60,40,65,45,35,Field,,Medium Fast,13,4,8,5,6,9,6,3d4,3,,pokedex-sm
-395,323,Camerupt,FIRE,GROUND,460,70,100,70,105,75,40,Field,,Medium Fast,15,4,13,5,10,14,10,3d4,5,,pokedex-sm
+394,322,Numel,FIRE,GROUND,305,60,60,40,65,45,35,Field,,Medium Fast,13,4,8,5,6,9,6,3d4,3,,pokedex-swsh
+395,323,Camerupt,FIRE,GROUND,460,70,100,70,105,75,40,Field,,Medium Fast,15,4,13,5,10,14,10,3d4,5,,pokedex-swsh
 396,323,Mega Camerupt,FIRE,GROUND,560,70,120,100,145,105,20,Field,,Medium Fast,15,4,15,3,13,19,14,3d4,8,-m,pokedex-swsh
 397,324,Torkoal,FIRE,,470,70,85,140,85,70,20,Field,,Medium Fast,15,4,11,3,14,11,9,3d4,8,,pokedex-swsh
-398,325,Spoink,PSYCHIC,,330,60,25,35,70,80,60,Field,,Fast,13,4,4,8,8,9,10,3d4,4,,pokedex-sm
-399,326,Grumpig,PSYCHIC,,470,80,45,65,90,110,80,Field,,Fast,17,5,6,10,11,12,14,3d4,7,,pokedex-sm
-400,327,Spinda,NORMAL,,360,60,60,60,60,60,60,Field,Human-Like,Fast,13,4,8,8,8,8,8,3d4,4,,pokedex-sm
+398,325,Spoink,PSYCHIC,,330,60,25,35,70,80,60,Field,,Fast,13,4,4,8,8,9,10,3d4,4,,pokedex-swsh
+399,326,Grumpig,PSYCHIC,,470,80,45,65,90,110,80,Field,,Fast,17,5,6,10,11,12,14,3d4,7,,pokedex-swsh
+400,327,Spinda,NORMAL,,360,60,60,60,60,60,60,Field,Human-Like,Fast,13,4,8,8,8,8,8,3d4,4,,pokedex-swsh
 401,328,Trapinch,GROUND,,290,45,100,45,45,45,10,Bug,Dragon*,Medium Slow,10,3,13,2,6,6,6,3d4,3,,pokedex-swsh
 402,329,Vibrava,GROUND,DRAGON,340,50,70,50,50,50,70,Bug,Dragon*,Medium Slow,11,3,9,9,7,7,7,3d4,4,,pokedex-swsh
 403,330,Flygon,GROUND,DRAGON,520,80,100,80,80,80,100,Bug,Dragon*,Medium Slow,17,5,13,13,10,10,10,3d4,6,,pokedex-swsh
-404,331,Cacnea,GRASS,,335,50,85,40,85,40,35,Grass,Human-Like,Medium Slow,11,3,11,5,5,11,5,3d4,3,,pokedex-sm
-405,332,Cacturne,GRASS,DARK,475,70,115,60,115,60,55,Grass,Human-Like,Medium Slow,15,4,15,7,8,15,8,3d4,4,,pokedex-sm
+404,331,Cacnea,GRASS,,335,50,85,40,85,40,35,Grass,Human-Like,Medium Slow,11,3,11,5,5,11,5,3d4,3,,pokedex-swsh
+405,332,Cacturne,GRASS,DARK,475,70,115,60,115,60,55,Grass,Human-Like,Medium Slow,15,4,15,7,8,15,8,3d4,4,,pokedex-swsh
 406,333,Swablu,NORMAL,FLYING,310,45,40,60,40,75,50,Flying,Dragon,Erratic,10,3,5,7,9,5,10,3d4,5,,pokedex-swsh
 407,334,Altaria,DRAGON,FLYING,490,75,70,90,70,105,80,Flying,Dragon,Erratic,16,4,9,10,13,9,14,3d4,7,,pokedex-swsh
 408,334,Mega Altaria,DRAGON,FAIRY,590,75,110,110,110,105,80,Flying,Dragon,Erratic,16,4,14,10,14,14,14,3d4,8,-m,pokedex-swsh
-409,335,Zangoose,NORMAL,,458,73,115,60,60,60,90,Field,,Erratic,15,4,15,12,8,8,8,3d4,4,,pokedex-sm
-410,336,Seviper,POISON,,458,73,100,60,100,60,65,Field,Dragon,Fluctuating,15,4,13,9,8,13,8,3d4,4,,pokedex-sm
+409,335,Zangoose,NORMAL,,458,73,115,60,60,60,90,Field,,Erratic,15,4,15,12,8,8,8,3d4,4,,pokedex-swsh
+410,336,Seviper,POISON,,458,73,100,60,100,60,65,Field,Dragon,Fluctuating,15,4,13,9,8,13,8,3d4,4,,pokedex-swsh
 411,337,Lunatone,ROCK,PSYCHIC,460,90,55,65,95,85,70,Mineral,,Fast,19,5,7,9,10,12,11,3d4,6,,pokedex-swsh
 412,338,Solrock,ROCK,PSYCHIC,460,90,95,85,55,65,70,Mineral,,Fast,19,5,12,9,10,7,9,3d4,6,,pokedex-swsh
 413,339,Barboach,WATER,GROUND,288,50,48,43,46,41,60,Water 2,,Medium Fast,11,3,6,8,6,6,6,3d4,3,,pokedex-swsh
@@ -424,18 +424,18 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 422,348,Armaldo,ROCK,BUG,495,75,125,100,70,80,45,Water 3,,Erratic,16,4,16,6,12,9,10,3d4,7,,pokedex-swsh
 423,349,Feebas,WATER,,200,20,15,20,10,55,80,Water 1,Dragon,Erratic,5,2,2,10,5,2,7,3d4,3,,pokedex-swsh
 424,350,Milotic,WATER,,540,95,60,79,100,125,81,Water 1,Dragon,Erratic,20,5,8,11,13,13,16,3d4,8,,pokedex-swsh
-425,351,Castform,NORMAL,,420,70,70,70,70,70,70,Fairy,Amorphous,Medium Fast,15,4,9,9,9,9,9,3d4,5,,pokedex-sm
+425,351,Castform,NORMAL,,420,70,70,70,70,70,70,Fairy,Amorphous,Medium Fast,15,4,9,9,9,9,9,3d4,5,,pokedex-swsh
 426,351,Castform (Sunny Form),FIRE,,420,70,70,70,70,70,70,Fairy,Amorphous,Medium Fast,15,4,9,9,9,9,9,3d4,5,-s,pokedex-swsh
 427,351,Castform (Rainy Form),WATER,,420,70,70,70,70,70,70,Fairy,Amorphous,Medium Fast,15,4,9,9,9,9,9,3d4,5,-r,pokedex-swsh
 428,351,Castform (Snowy Form),ICE,,420,70,70,70,70,70,70,Fairy,Amorphous,Medium Fast,15,4,9,9,9,9,9,3d4,5,-i,pokedex-swsh
-429,352,Kecleon,NORMAL,,440,60,90,70,60,120,40,Field,,Medium Slow,13,4,12,5,12,8,15,3d4,7,,pokedex-sm
-430,353,Shuppet,GHOST,,295,44,75,35,63,33,45,Amorphous,,Fast,9,3,10,6,5,8,5,3d4,2,,pokedex-sm
-431,354,Banette,GHOST,,455,64,115,65,83,63,65,Amorphous,,Fast,13,4,15,9,8,11,8,3d4,5,,pokedex-sm
+429,352,Kecleon,NORMAL,,440,60,90,70,60,120,40,Field,,Medium Slow,13,4,12,5,12,8,15,3d4,7,,pokedex-swsh
+430,353,Shuppet,GHOST,,295,44,75,35,63,33,45,Amorphous,,Fast,9,3,10,6,5,8,5,3d4,2,,pokedex-swsh
+431,354,Banette,GHOST,,455,64,115,65,83,63,65,Amorphous,,Fast,13,4,15,9,8,11,8,3d4,5,,pokedex-swsh
 432,354,Mega Banette,GHOST,,555,64,165,75,93,83,75,Amorphous,,Fast,13,4,21,10,10,12,11,3d4,6,-m,pokedex-swsh
 433,355,Duskull,GHOST,,295,20,40,90,30,90,25,Amorphous,,Fast,5,2,5,4,12,4,12,3d4,7,,pokedex-swsh
 434,356,Dusclops,GHOST,,455,40,70,130,60,130,25,Amorphous,,Fast,9,3,9,4,17,8,17,3d4,10,,pokedex-swsh
-435,357,Tropius,GRASS,FLYING,460,99,68,83,72,87,51,Monster,Grass,Slow,20,5,9,7,11,9,11,3d4,6,,pokedex-sm
-436,358,Chimecho,PSYCHIC,,455,75,50,80,95,90,65,Amorphous,,Fast,16,4,7,9,11,12,12,3d4,6,,pokedex-sm
+435,357,Tropius,GRASS,FLYING,460,99,68,83,72,87,51,Monster,Grass,Slow,20,5,9,7,11,9,11,3d4,6,,pokedex-swsh
+436,358,Chimecho,PSYCHIC,,455,75,50,80,95,90,65,Amorphous,,Fast,16,4,7,9,11,12,12,3d4,6,,pokedex-swsh
 437,359,Absol,DARK,,465,65,130,60,75,60,75,Field,,Medium Slow,14,4,17,10,8,10,8,3d4,4,,pokedex-swsh
 438,359,Mega Absol,DARK,,565,65,150,60,115,60,115,Field,,Medium Slow,14,4,19,15,8,15,8,3d4,4,-m,pokedex-swsh
 439,360,Wynaut,PSYCHIC,,260,95,23,48,23,48,23,No Eggs Discovered,,Medium Fast,20,5,3,3,6,3,6,3d4,3,,pokedex-swsh
@@ -445,11 +445,11 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 443,363,Spheal,ICE,WATER,290,70,40,50,55,50,25,Water 1,Field,Medium Slow,15,4,5,4,7,7,7,3d4,4,,pokedex-swsh
 444,364,Sealeo,ICE,WATER,410,90,60,70,75,70,45,Water 1,Field,Medium Slow,19,5,8,6,9,10,9,3d4,5,,pokedex-swsh
 445,365,Walrein,ICE,WATER,530,110,80,90,95,90,65,Water 1,Field,Medium Slow,23,6,10,9,12,12,12,3d4,7,,pokedex-swsh
-446,366,Clamperl,WATER,,345,35,64,85,74,55,32,Water 1,,Erratic,8,2,8,4,9,10,7,3d4,5,,pokedex-sm
-447,367,Huntail,WATER,,485,55,104,105,94,75,52,Water 1,,Erratic,12,3,13,7,12,12,10,3d4,7,,pokedex-sm
-448,368,Gorebyss,WATER,,485,55,84,105,114,75,52,Water 1,,Erratic,12,3,11,7,12,15,10,3d4,7,,pokedex-sm
+446,366,Clamperl,WATER,,345,35,64,85,74,55,32,Water 1,,Erratic,8,2,8,4,9,10,7,3d4,5,,pokedex-swsh
+447,367,Huntail,WATER,,485,55,104,105,94,75,52,Water 1,,Erratic,12,3,13,7,12,12,10,3d4,7,,pokedex-swsh
+448,368,Gorebyss,WATER,,485,55,84,105,114,75,52,Water 1,,Erratic,12,3,11,7,12,15,10,3d4,7,,pokedex-swsh
 449,369,Relicanth,WATER,ROCK,485,100,90,130,45,65,55,Water 1,Water 2,Slow,21,6,12,7,13,6,9,3d4,7,,pokedex-swsh
-450,370,Luvdisc,WATER,,330,43,30,55,40,65,97,Water 2,,Fast,9,3,4,13,8,5,9,3d4,4,,pokedex-sm
+450,370,Luvdisc,WATER,,330,43,30,55,40,65,97,Water 2,,Fast,9,3,4,13,8,5,9,3d4,4,,pokedex-swsh
 451,371,Bagon,DRAGON,,300,45,75,60,40,30,50,Dragon,,Slow,10,3,10,7,6,5,4,3d4,3,,pokedex-swsh
 452,372,Shelgon,DRAGON,,420,65,95,100,60,50,50,Dragon,,Slow,14,4,12,7,10,8,7,3d4,6,,pokedex-swsh
 453,373,Salamence,DRAGON,FLYING,600,95,135,80,110,80,100,Dragon,,Slow,20,5,17,13,10,14,10,3d4,6,,pokedex-swsh
@@ -476,58 +476,58 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 474,386,Deoxys (Attack Forme),PSYCHIC,,600,50,180,20,180,20,150,No Eggs Discovered,,Slow,11,3,23,19,3,23,3,3d4,1,-a,pokedex-swsh
 475,386,Deoxys (Defense Forme),PSYCHIC,,600,50,70,160,70,160,90,No Eggs Discovered,,Slow,11,3,9,12,20,9,20,3d4,12,-d,pokedex-swsh
 476,386,Deoxys (Speed Forme),PSYCHIC,,600,50,95,90,95,90,180,No Eggs Discovered,,Slow,11,3,12,23,12,12,12,3d4,7,-s,pokedex-swsh
-477,387,Turtwig,GRASS,,318,55,68,64,45,55,31,Monster,Grass,Medium Slow,12,3,9,4,8,6,7,3d4,4,,pokedex-sm
-478,388,Grotle,GRASS,,405,75,89,85,55,65,36,Monster,Grass,Medium Slow,16,4,12,5,10,7,9,3d4,6,,pokedex-sm
-479,389,Torterra,GRASS,GROUND,525,95,109,105,75,85,56,Monster,Grass,Medium Slow,20,5,14,7,12,10,11,3d4,7,,pokedex-sm
-480,390,Chimchar,FIRE,,309,44,58,44,58,44,61,Field,Human-Like,Medium Slow,9,3,8,8,6,8,6,3d4,3,,pokedex-sm
-481,391,Monferno,FIRE,FIGHTING,405,64,78,52,78,52,81,Field,Human-Like,Medium Slow,13,4,10,11,7,10,7,3d4,4,,pokedex-sm
-482,392,Infernape,FIRE,FIGHTING,534,76,104,71,104,71,108,Field,Human-Like,Medium Slow,16,4,13,14,9,13,9,3d4,5,,pokedex-sm
-483,393,Piplup,WATER,,314,53,51,53,61,56,40,Water 1,Field,Medium Slow,11,3,7,5,7,8,7,3d4,4,,pokedex-sm
-484,394,Prinplup,WATER,,405,64,66,68,81,76,50,Water 1,Field,Medium Slow,13,4,9,7,9,11,10,3d4,5,,pokedex-sm
-485,395,Empoleon,WATER,STEEL,530,84,86,88,111,101,60,Water 1,Field,Medium Slow,17,5,11,8,12,14,13,3d4,7,,pokedex-sm
-486,396,Starly,NORMAL,FLYING,245,40,55,30,30,30,60,Flying,,Medium Slow,9,3,7,8,4,4,4,3d4,2,,pokedex-sm
-487,397,Staravia,NORMAL,FLYING,340,55,75,50,40,40,80,Flying,,Medium Slow,12,3,10,10,6,5,5,3d4,3,,pokedex-sm
-488,398,Staraptor,NORMAL,FLYING,485,85,120,70,50,60,100,Flying,,Medium Slow,18,5,15,13,9,7,8,3d4,5,,pokedex-sm
-489,399,Bidoof,NORMAL,,250,59,45,40,35,40,31,Water 1,Field,Medium Fast,12,3,6,4,5,5,5,3d4,3,,pokedex-sm
-490,400,Bibarel,NORMAL,WATER,410,79,85,60,55,60,71,Water 1,Field,Medium Fast,16,4,11,9,8,7,8,3d4,4,,pokedex-sm
-491,401,Kricketot,BUG,,194,37,25,41,25,41,25,Bug,,Medium Slow,8,2,4,4,6,4,6,3d4,3,,pokedex-sm
-492,402,Kricketune,BUG,,384,77,85,51,55,51,65,Bug,,Medium Slow,16,4,11,9,7,7,7,3d4,4,,pokedex-sm
+477,387,Turtwig,GRASS,,318,55,68,64,45,55,31,Monster,Grass,Medium Slow,12,3,9,4,8,6,7,3d4,4,,pokedex-swsh
+478,388,Grotle,GRASS,,405,75,89,85,55,65,36,Monster,Grass,Medium Slow,16,4,12,5,10,7,9,3d4,6,,pokedex-swsh
+479,389,Torterra,GRASS,GROUND,525,95,109,105,75,85,56,Monster,Grass,Medium Slow,20,5,14,7,12,10,11,3d4,7,,pokedex-swsh
+480,390,Chimchar,FIRE,,309,44,58,44,58,44,61,Field,Human-Like,Medium Slow,9,3,8,8,6,8,6,3d4,3,,pokedex-swsh
+481,391,Monferno,FIRE,FIGHTING,405,64,78,52,78,52,81,Field,Human-Like,Medium Slow,13,4,10,11,7,10,7,3d4,4,,pokedex-swsh
+482,392,Infernape,FIRE,FIGHTING,534,76,104,71,104,71,108,Field,Human-Like,Medium Slow,16,4,13,14,9,13,9,3d4,5,,pokedex-swsh
+483,393,Piplup,WATER,,314,53,51,53,61,56,40,Water 1,Field,Medium Slow,11,3,7,5,7,8,7,3d4,4,,pokedex-swsh
+484,394,Prinplup,WATER,,405,64,66,68,81,76,50,Water 1,Field,Medium Slow,13,4,9,7,9,11,10,3d4,5,,pokedex-swsh
+485,395,Empoleon,WATER,STEEL,530,84,86,88,111,101,60,Water 1,Field,Medium Slow,17,5,11,8,12,14,13,3d4,7,,pokedex-swsh
+486,396,Starly,NORMAL,FLYING,245,40,55,30,30,30,60,Flying,,Medium Slow,9,3,7,8,4,4,4,3d4,2,,pokedex-swsh
+487,397,Staravia,NORMAL,FLYING,340,55,75,50,40,40,80,Flying,,Medium Slow,12,3,10,10,6,5,5,3d4,3,,pokedex-swsh
+488,398,Staraptor,NORMAL,FLYING,485,85,120,70,50,60,100,Flying,,Medium Slow,18,5,15,13,9,7,8,3d4,5,,pokedex-swsh
+489,399,Bidoof,NORMAL,,250,59,45,40,35,40,31,Water 1,Field,Medium Fast,12,3,6,4,5,5,5,3d4,3,,pokedex-swsh
+490,400,Bibarel,NORMAL,WATER,410,79,85,60,55,60,71,Water 1,Field,Medium Fast,16,4,11,9,8,7,8,3d4,4,,pokedex-swsh
+491,401,Kricketot,BUG,,194,37,25,41,25,41,25,Bug,,Medium Slow,8,2,4,4,6,4,6,3d4,3,,pokedex-swsh
+492,402,Kricketune,BUG,,384,77,85,51,55,51,65,Bug,,Medium Slow,16,4,11,9,7,7,7,3d4,4,,pokedex-swsh
 493,403,Shinx,ELECTRIC,,263,45,65,34,40,34,45,Field,,Medium Slow,10,3,9,6,5,5,5,3d4,2,,pokedex-swsh
 494,404,Luxio,ELECTRIC,,363,60,85,49,60,49,60,Field,,Medium Slow,13,4,11,8,7,8,7,3d4,3,,pokedex-swsh
 495,405,Luxray,ELECTRIC,,523,80,120,79,95,79,70,Field,,Medium Slow,17,5,15,9,10,12,10,3d4,6,,pokedex-swsh
 496,406,Budew,GRASS,POISON,280,40,30,35,50,70,55,No Eggs Discovered,,Medium Slow,9,3,4,7,7,7,9,3d4,4,,pokedex-swsh
 497,407,Roserade,GRASS,POISON,515,60,70,65,125,105,90,Fairy,Grass,Medium Slow,13,4,9,12,11,16,14,3d4,6,,pokedex-swsh
-498,408,Cranidos,ROCK,,350,67,125,40,30,30,58,Monster,,Erratic,14,4,16,8,5,4,4,3d4,2,,pokedex-sm
-499,409,Rampardos,ROCK,,495,97,165,60,65,50,58,Monster,,Erratic,20,5,21,8,7,9,7,3d4,4,,pokedex-sm
-500,410,Shieldon,ROCK,STEEL,350,30,42,118,42,88,30,Monster,,Erratic,7,2,6,4,13,6,11,3d4,8,,pokedex-sm
-501,411,Bastiodon,ROCK,STEEL,495,60,52,168,47,138,30,Monster,,Erratic,13,4,7,4,20,6,18,3d4,12,,pokedex-sm
+498,408,Cranidos,ROCK,,350,67,125,40,30,30,58,Monster,,Erratic,14,4,16,8,5,4,4,3d4,2,,pokedex-swsh
+499,409,Rampardos,ROCK,,495,97,165,60,65,50,58,Monster,,Erratic,20,5,21,8,7,9,7,3d4,4,,pokedex-swsh
+500,410,Shieldon,ROCK,STEEL,350,30,42,118,42,88,30,Monster,,Erratic,7,2,6,4,13,6,11,3d4,8,,pokedex-swsh
+501,411,Bastiodon,ROCK,STEEL,495,60,52,168,47,138,30,Monster,,Erratic,13,4,7,4,20,6,18,3d4,12,,pokedex-swsh
 502,412,Burmy (Plant Cloak),BUG,,224,40,29,45,29,45,36,Bug,,Medium Fast,9,3,4,5,6,4,6,3d4,3,,pokedex-swsh
 503,412,Burmy (Sandy Cloak),BUG,,224,40,29,45,29,45,36,Bug,,Medium Fast,9,3,4,5,6,4,6,3d4,3,-s,pokedex-swsh
 504,412,Burmy (Trash Cloak),BUG,,224,40,29,45,29,45,36,Bug,,Medium Fast,9,3,4,5,6,4,6,3d4,3,-t,pokedex-swsh
 505,413,Wormadam (Plant Cloak),BUG,GRASS,424,60,59,85,79,105,36,Bug,,Medium Fast,13,4,8,5,12,10,14,3d4,7,,pokedex-swsh
 506,413,Wormadam (Sandy Cloak),BUG,GROUND,424,60,79,105,59,85,36,Bug,,Medium Fast,13,4,10,5,12,8,11,3d4,7,-c,pokedex-swsh
 507,413,Wormadam (Trash Cloak),BUG,STEEL,424,60,69,95,69,95,36,Bug,,Medium Fast,13,4,9,5,12,9,12,3d4,7,-s,pokedex-swsh
-508,414,Mothim,BUG,FLYING,424,70,94,50,94,50,66,Bug,,Medium Fast,15,4,12,9,7,12,7,3d4,4,,pokedex-sm
+508,414,Mothim,BUG,FLYING,424,70,94,50,94,50,66,Bug,,Medium Fast,15,4,12,9,7,12,7,3d4,4,,pokedex-swsh
 509,415,Combee,BUG,FLYING,244,30,30,42,30,42,70,Bug,,Medium Slow,7,2,4,9,6,4,6,3d4,3,,pokedex-swsh
 510,416,Vespiquen,BUG,FLYING,474,70,80,102,80,102,40,Bug,,Medium Slow,15,4,10,5,13,10,13,3d4,8,,pokedex-swsh
-511,417,Pachirisu,ELECTRIC,,405,60,45,70,45,90,95,Field,Fairy,Medium Fast,13,4,6,12,10,6,12,3d4,6,,pokedex-sm
-512,418,Buizel,WATER,,330,55,65,35,60,30,85,Water 1,Field,Medium Fast,12,3,9,11,5,8,4,3d4,2,,pokedex-sm
-513,419,Floatzel,WATER,,495,85,105,55,85,50,115,Water 1,Field,Medium Fast,18,5,14,15,7,11,7,3d4,4,,pokedex-sm
+511,417,Pachirisu,ELECTRIC,,405,60,45,70,45,90,95,Field,Fairy,Medium Fast,13,4,6,12,10,6,12,3d4,6,,pokedex-swsh
+512,418,Buizel,WATER,,330,55,65,35,60,30,85,Water 1,Field,Medium Fast,12,3,9,11,5,8,4,3d4,2,,pokedex-swsh
+513,419,Floatzel,WATER,,495,85,105,55,85,50,115,Water 1,Field,Medium Fast,18,5,14,15,7,11,7,3d4,4,,pokedex-swsh
 514,420,Cherubi,GRASS,,275,45,35,45,62,53,35,Fairy,Grass,Medium Fast,10,3,5,5,7,8,7,3d4,3,,pokedex-swsh
 515,421,Cherrim,GRASS,,450,70,60,70,87,78,85,Fairy,Grass,Medium Fast,15,4,8,11,10,11,10,3d4,5,,pokedex-swsh
 516,422,Shellos,WATER,,325,76,48,48,57,62,34,Water 1,Amorphous,Medium Fast,16,4,6,5,7,8,8,3d4,4,,pokedex-swsh
 517,423,Gastrodon,WATER,GROUND,475,111,83,68,92,82,39,Water 1,Amorphous,Medium Fast,23,6,11,5,10,12,11,3d4,6,,pokedex-swsh
-518,424,Ambipom,NORMAL,,482,75,100,66,60,66,115,Field,,Fast,16,4,13,15,9,8,9,3d4,5,,pokedex-sm
+518,424,Ambipom,NORMAL,,482,75,100,66,60,66,115,Field,,Fast,16,4,13,15,9,8,9,3d4,5,,pokedex-swsh
 519,425,Drifloon,GHOST,FLYING,348,90,50,34,60,44,70,Amorphous,,Fluctuating,19,5,7,9,5,8,6,3d4,3,,pokedex-swsh
 520,426,Drifblim,GHOST,FLYING,498,150,80,44,90,54,80,Amorphous,,Fluctuating,31,8,10,10,7,12,7,3d4,3,,pokedex-swsh
 521,427,Buneary,NORMAL,,350,55,66,44,44,56,85,Field,Human-Like,Medium Fast,12,3,9,11,7,6,7,3d4,4,,pokedex-swsh
 522,428,Lopunny,NORMAL,,480,65,76,84,54,96,105,Field,Human-Like,Medium Fast,14,4,10,14,12,7,12,3d4,7,,pokedex-swsh
 523,428,Mega Lopunny,NORMAL,FIGHTING,580,65,136,94,54,96,135,Field,Human-Like,Medium Fast,14,4,17,17,12,7,12,3d4,7,-m,pokedex-swsh
-524,429,Mismagius,GHOST,,495,60,60,60,105,105,105,Amorphous,,Fast,13,4,8,14,11,14,14,3d4,6,,pokedex-sm
-525,430,Honchkrow,DARK,FLYING,505,100,125,52,105,52,71,Flying,,Medium Slow,21,6,16,9,7,14,7,3d4,4,,pokedex-sm
-526,431,Glameow,NORMAL,,310,49,55,42,42,37,85,Field,,Fast,10,3,7,11,5,6,5,3d4,3,,pokedex-sm
-527,432,Purugly,NORMAL,,452,71,82,64,64,59,112,Field,,Fast,15,4,11,14,8,8,8,3d4,4,,pokedex-sm
-528,433,Chingling,PSYCHIC,,285,45,30,50,65,50,45,No Eggs Discovered,,Fast,10,3,4,6,7,9,7,3d4,4,,pokedex-sm
+524,429,Mismagius,GHOST,,495,60,60,60,105,105,105,Amorphous,,Fast,13,4,8,14,11,14,14,3d4,6,,pokedex-swsh
+525,430,Honchkrow,DARK,FLYING,505,100,125,52,105,52,71,Flying,,Medium Slow,21,6,16,9,7,14,7,3d4,4,,pokedex-swsh
+526,431,Glameow,NORMAL,,310,49,55,42,42,37,85,Field,,Fast,10,3,7,11,5,6,5,3d4,3,,pokedex-swsh
+527,432,Purugly,NORMAL,,452,71,82,64,64,59,112,Field,,Fast,15,4,11,14,8,8,8,3d4,4,,pokedex-swsh
+528,433,Chingling,PSYCHIC,,285,45,30,50,65,50,45,No Eggs Discovered,,Fast,10,3,4,6,7,9,7,3d4,4,,pokedex-swsh
 529,434,Stunky,POISON,DARK,329,63,63,47,41,41,74,Field,,Medium Fast,13,4,8,10,6,6,6,3d4,3,,pokedex-swsh
 530,435,Skuntank,POISON,DARK,479,103,93,67,71,61,84,Field,,Medium Fast,21,6,12,11,8,9,8,3d4,5,,pokedex-swsh
 531,436,Bronzor,STEEL,PSYCHIC,300,57,24,86,24,86,23,Mineral,,Medium Fast,12,3,3,3,11,3,11,3d4,6,,pokedex-swsh
@@ -535,7 +535,7 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 533,438,Bonsly,ROCK,,290,50,80,95,10,45,10,No Eggs Discovered,,Medium Fast,11,3,10,2,9,2,6,3d4,5,,pokedex-swsh
 534,439,Mime Jr.,PSYCHIC,FAIRY,310,20,25,45,70,90,60,No Eggs Discovered,,Medium Fast,5,2,4,8,9,9,12,3d4,5,,pokedex-swsh
 535,440,Happiny,NORMAL,,220,100,5,5,15,65,30,No Eggs Discovered,,Fast,21,6,1,4,5,2,9,3d4,2,,pokedex-swsh
-536,441,Chatot,NORMAL,FLYING,411,76,65,45,92,42,91,Flying,,Medium Slow,16,4,9,12,6,12,6,3d4,3,,pokedex-sm
+536,441,Chatot,NORMAL,FLYING,411,76,65,45,92,42,91,Flying,,Medium Slow,16,4,9,12,6,12,6,3d4,3,,pokedex-swsh
 537,442,Spiritomb,GHOST,DARK,485,50,92,108,92,108,35,Amorphous,,Medium Fast,11,3,12,5,14,12,14,3d4,8,,pokedex-swsh
 538,443,Gible,DRAGON,GROUND,300,58,70,45,40,45,42,Monster,Dragon,Slow,12,3,9,6,6,5,6,3d4,3,,pokedex-swsh
 539,444,Gabite,DRAGON,GROUND,410,68,90,65,50,55,82,Monster,Dragon,Slow,14,4,12,11,8,7,7,3d4,4,,pokedex-swsh
@@ -551,9 +551,9 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 549,452,Drapion,POISON,DARK,500,70,90,110,60,75,95,Bug,Water 3,Slow,15,4,12,12,12,8,10,3d4,7,,pokedex-swsh
 550,453,Croagunk,POISON,FIGHTING,300,48,61,40,61,40,50,Human-Like,,Medium Fast,10,3,8,7,5,8,5,3d4,3,,pokedex-swsh
 551,454,Toxicroak,POISON,FIGHTING,490,83,106,65,86,65,85,Human-Like,,Medium Fast,17,5,14,11,9,11,9,3d4,5,,pokedex-swsh
-552,455,Carnivine,GRASS,,454,74,100,72,90,72,46,Grass,,Slow,15,4,13,6,9,12,9,3d4,5,,pokedex-sm
-553,456,Finneon,WATER,,330,49,49,56,49,61,66,Water 2,,Erratic,10,3,7,9,8,7,8,3d4,4,,pokedex-sm
-554,457,Lumineon,WATER,,460,69,69,76,69,86,91,Water 2,,Erratic,14,4,9,12,11,9,11,3d4,6,,pokedex-sm
+552,455,Carnivine,GRASS,,454,74,100,72,90,72,46,Grass,,Slow,15,4,13,6,9,12,9,3d4,5,,pokedex-swsh
+553,456,Finneon,WATER,,330,49,49,56,49,61,66,Water 2,,Erratic,10,3,7,9,8,7,8,3d4,4,,pokedex-swsh
+554,457,Lumineon,WATER,,460,69,69,76,69,86,91,Water 2,,Erratic,14,4,9,12,11,9,11,3d4,6,,pokedex-swsh
 555,458,Mantyke,WATER,FLYING,345,45,20,50,60,120,50,No Eggs Discovered,,Slow,10,3,3,7,11,8,15,3d4,6,,pokedex-swsh
 556,459,Snover,GRASS,ICE,334,60,62,50,62,60,40,Monster,Grass,Slow,13,4,8,5,7,8,8,3d4,4,,pokedex-swsh
 557,460,Abomasnow,GRASS,ICE,494,90,92,75,92,85,60,Monster,Grass,Slow,19,5,12,8,10,12,11,3d4,6,,pokedex-swsh
@@ -566,15 +566,15 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 564,466,Electivire,ELECTRIC,,540,75,123,67,95,85,95,Human-Like,,Medium Fast,16,4,16,12,10,12,11,3d4,6,,pokedex-swsh
 565,467,Magmortar,FIRE,,540,75,95,67,125,95,83,Human-Like,,Medium Fast,16,4,12,11,11,16,12,3d4,6,,pokedex-swsh
 566,468,Togekiss,FAIRY,FLYING,545,85,50,95,120,115,80,Flying,Fairy,Fast,18,5,7,10,14,15,15,3d4,8,,pokedex-swsh
-567,469,Yanmega,BUG,FLYING,515,86,76,86,116,56,95,Bug,,Medium Fast,18,5,10,12,9,15,7,3d4,5,,pokedex-sm
+567,469,Yanmega,BUG,FLYING,515,86,76,86,116,56,95,Bug,,Medium Fast,18,5,10,12,9,15,7,3d4,5,,pokedex-swsh
 568,470,Leafeon,GRASS,,525,65,110,130,60,65,95,Field,,Medium Fast,14,4,14,12,13,8,9,3d4,7,,pokedex-swsh
 569,471,Glaceon,ICE,,525,65,60,110,130,95,65,Field,,Medium Fast,14,4,8,9,13,17,12,3d4,8,,pokedex-swsh
-570,472,Gliscor,GROUND,FLYING,510,75,95,125,45,75,95,Bug,,Medium Slow,16,4,12,12,13,6,10,3d4,8,,pokedex-sm
+570,472,Gliscor,GROUND,FLYING,510,75,95,125,45,75,95,Bug,,Medium Slow,16,4,12,12,13,6,10,3d4,8,,pokedex-swsh
 571,473,Mamoswine,ICE,GROUND,530,110,130,80,70,60,80,Field,,Slow,23,6,17,10,9,9,8,3d4,5,,pokedex-swsh
 572,474,Porygon-Z,NORMAL,,535,85,80,70,135,75,90,Mineral,,Medium Fast,18,5,10,12,10,17,10,3d4,5,,pokedex-swsh
 573,475,Gallade,PSYCHIC,FIGHTING,518,68,125,65,65,115,80,Human-Like*,Amorphous,Slow,14,4,16,10,12,9,15,3d4,7,,pokedex-swsh
 574,475,Mega Gallade,PSYCHIC,FIGHTING,618,68,165,95,65,115,110,Human-Like*,Amorphous,Slow,14,4,21,14,14,9,15,3d4,8,-m,pokedex-swsh
-575,476,Probopass,ROCK,STEEL,525,60,55,145,75,150,40,Mineral,,Medium Fast,13,4,7,5,19,10,19,3d4,11,,pokedex-sm
+575,476,Probopass,ROCK,STEEL,525,60,55,145,75,150,40,Mineral,,Medium Fast,13,4,7,5,19,10,19,3d4,11,,pokedex-swsh
 576,477,Dusknoir,GHOST,,525,45,100,135,65,135,45,Amorphous,,Fast,10,3,13,6,17,9,17,3d4,10,,pokedex-swsh
 577,478,Froslass,ICE,GHOST,480,70,80,70,80,70,110,Fairy,Mineral,Medium Fast,15,4,10,14,9,10,9,3d4,5,,pokedex-swsh
 578,479,Rotom,ELECTRIC,GHOST,440,50,50,77,95,77,91,Amorphous,,Medium Fast,11,3,7,12,10,12,10,3d4,6,,pokedex-swsh
@@ -595,12 +595,12 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 593,487,Giratina (Altered Forme),GHOST,DRAGON,680,150,100,120,100,120,90,No Eggs Discovered,,Slow,31,8,13,12,15,13,15,3d4,9,,pokedex-swsh
 594,487,Giratina (Origin Forme),GHOST,DRAGON,680,150,120,100,120,100,90,No Eggs Discovered,,Slow,31,8,15,12,13,15,13,3d4,8,-o,pokedex-swsh
 595,488,Cresselia,PSYCHIC,,600,120,70,120,75,130,85,No Eggs Discovered,,Slow,25,7,9,11,16,10,17,3d4,10,,pokedex-swsh
-596,489,Phione,WATER,,480,80,80,80,80,80,80,Water 1,Fairy,Slow,17,5,10,10,10,10,10,3d4,6,,pokedex-sm
-597,490,Manaphy,WATER,,600,100,100,100,100,100,100,Water 1,Fairy,Slow,21,6,13,13,13,13,13,3d4,8,,pokedex-sm
-598,491,Darkrai,DARK,,600,70,90,90,135,90,125,No Eggs Discovered,,Slow,15,4,12,16,12,17,12,3d4,7,,pokedex-sm
+596,489,Phione,WATER,,480,80,80,80,80,80,80,Water 1,Fairy,Slow,17,5,10,10,10,10,10,3d4,6,,pokedex-swsh
+597,490,Manaphy,WATER,,600,100,100,100,100,100,100,Water 1,Fairy,Slow,21,6,13,13,13,13,13,3d4,8,,pokedex-swsh
+598,491,Darkrai,DARK,,600,70,90,90,135,90,125,No Eggs Discovered,,Slow,15,4,12,16,12,17,12,3d4,7,,pokedex-swsh
 599,492,Shaymin (Land Forme),GRASS,,600,100,100,100,100,100,100,No Eggs Discovered,,Medium Slow,21,6,13,13,13,13,13,3d4,8,,pokedex-swsh
 600,492,Shaymin (Sky Forme),GRASS,FLYING,600,100,103,75,120,75,127,No Eggs Discovered,,Medium Slow,21,6,13,16,10,15,10,3d4,6,-s,pokedex-swsh
-601,493,Arceus,NORMAL,,720,120,120,120,120,120,120,No Eggs Discovered,,Slow,25,7,15,15,15,15,15,3d4,9,,pokedex-sm
+601,493,Arceus,NORMAL,,720,120,120,120,120,120,120,No Eggs Discovered,,Slow,25,7,15,15,15,15,15,3d4,9,,pokedex-swsh
 602,494,Victini,PSYCHIC,FIRE,600,100,100,100,100,100,100,No Eggs Discovered,,Slow,21,6,13,13,13,13,13,3d4,8,,pokedex-swsh
 603,495,Snivy,GRASS,,308,45,45,55,45,55,63,Field,Grass,Medium Slow,10,3,6,8,7,6,7,3d4,4,,pokedex-sm
 604,496,Servine,GRASS,,413,60,60,75,60,75,83,Field,Grass,Medium Slow,13,4,8,11,10,8,10,3d4,6,,pokedex-sm
@@ -608,9 +608,9 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 606,498,Tepig,FIRE,,308,65,63,45,45,45,45,Field,,Medium Slow,14,4,8,6,6,6,6,3d4,3,,pokedex-sm
 607,499,Pignite,FIRE,FIGHTING,418,90,93,55,70,55,55,Field,,Medium Slow,19,5,12,7,7,9,7,3d4,4,,pokedex-sm
 608,500,Emboar,FIRE,FIGHTING,528,110,123,65,100,65,65,Field,,Medium Slow,23,6,16,9,9,13,9,3d4,5,,pokedex-sm
-609,501,Oshawott,WATER,,308,55,55,45,63,45,45,Field,,Medium Slow,12,3,7,6,6,8,6,3d4,3,,pokedex-sm
-610,502,Dewott,WATER,,413,75,75,60,83,60,60,Field,,Medium Slow,16,4,10,8,8,11,8,3d4,4,,pokedex-sm
-611,503,Samurott,WATER,,528,95,100,85,108,70,70,Field,,Medium Slow,20,5,13,9,10,14,9,3d4,6,,pokedex-sm
+609,501,Oshawott,WATER,,308,55,55,45,63,45,45,Field,,Medium Slow,12,3,7,6,6,8,6,3d4,3,,pokedex-swsh
+610,502,Dewott,WATER,,413,75,75,60,83,60,60,Field,,Medium Slow,16,4,10,8,8,11,8,3d4,4,,pokedex-swsh
+611,503,Samurott,WATER,,528,95,100,85,108,70,70,Field,,Medium Slow,20,5,13,9,10,14,9,3d4,6,,pokedex-swsh
 612,503,Samurott (Hisuian Samurott),WATER,DARK,528,90,108,80,100,65,85,Field,,Medium Slow,19,5,14,11,10,13,9,3d4,5,-h,pokedex-swsh
 613,504,Patrat,NORMAL,,255,45,55,39,35,39,42,Field,,Medium Fast,10,3,7,6,5,5,5,3d4,3,,pokedex-sm
 614,505,Watchog,NORMAL,,420,60,85,69,60,69,77,Field,,Medium Fast,13,4,11,10,9,8,9,3d4,5,,pokedex-sm
@@ -775,8 +775,8 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 773,646,Kyurem (White Kyurem),DRAGON,ICE,700,125,120,90,170,100,95,No Eggs Discovered,,Slow,26,7,15,12,12,22,13,3d4,7,-w,pokedex-swsh
 774,647,Keldeo (Ordinary Form),WATER,FIGHTING,580,91,72,90,129,90,108,No Eggs Discovered,,Slow,19,5,9,14,12,17,12,3d4,7,,pokedex-swsh
 775,647,Keldeo (Resolute Form),WATER,FIGHTING,580,91,72,90,129,90,108,No Eggs Discovered,,Slow,19,5,9,14,12,17,12,3d4,7,-r,pokedex-swsh
-776,648,Meloetta (Aria Forme),NORMAL,PSYCHIC,600,100,77,77,128,128,90,No Eggs Discovered,,Slow,21,6,10,12,13,16,16,3d4,8,,pokedex-swsh
-777,648,Meloetta (Pirouette Forme),NORMAL,FIGHTING,600,100,128,90,77,77,128,No Eggs Discovered,,Slow,21,6,16,16,11,10,10,3d4,6,-s,pokedex-swsh
+776,648,Meloetta (Aria Forme),NORMAL,PSYCHIC,600,100,77,77,128,128,90,No Eggs Discovered,,Slow,21,6,10,12,13,16,16,3d4,8,,pokedex-sm
+777,648,Meloetta (Pirouette Forme),NORMAL,FIGHTING,600,100,128,90,77,77,128,No Eggs Discovered,,Slow,21,6,16,16,11,10,10,3d4,6,-s,pokedex-sm
 778,649,Genesect,BUG,STEEL,600,71,120,95,120,95,99,No Eggs Discovered,,Slow,15,4,15,13,12,15,12,3d4,7,,pokedex-swsh
 779,650,Chespin,GRASS,,313,56,61,65,48,45,38,Field,,Medium Slow,12,3,8,5,7,6,6,3d4,4,,pokedex-sm
 780,651,Quilladin,GRASS,,405,61,78,95,56,58,57,Field,,Medium Slow,13,4,10,8,10,7,8,3d4,6,,pokedex-sm
@@ -787,7 +787,7 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 785,656,Froakie,WATER,,314,41,56,40,62,44,71,Water 1,,Medium Slow,9,3,7,9,6,8,6,3d4,3,,pokedex-sm
 786,657,Frogadier,WATER,,405,54,63,52,83,56,97,Water 1,,Medium Slow,11,3,8,13,7,11,7,3d4,4,,pokedex-sm
 787,658,Greninja,WATER,DARK,530,72,95,67,103,71,122,Water 1,,Medium Slow,15,4,12,16,9,13,9,3d4,5,,pokedex-sm
-788,658,Greninja (Ash-Greninja),WATER,DARK,640,72,145,67,153,71,132,Water 1,,Medium Slow,15,4,19,17,9,20,9,3d4,5,-a,pokedex-swsh
+788,658,Greninja (Ash-Greninja),WATER,DARK,640,72,145,67,153,71,132,Water 1,,Medium Slow,15,4,19,17,9,20,9,3d4,5,-a,pokedex-sm
 789,659,Bunnelby,NORMAL,,237,38,36,38,32,36,57,Field,,Medium Fast,8,2,5,8,5,4,5,3d4,2,,pokedex-swsh
 790,660,Diggersby,NORMAL,GROUND,423,85,56,77,50,77,78,Field,,Medium Fast,18,5,7,10,10,7,10,3d4,6,,pokedex-swsh
 791,661,Fletchling,NORMAL,FLYING,278,45,50,43,40,38,62,Flying,,Medium Slow,10,3,7,8,6,5,5,3d4,3,,pokedex-swsh
@@ -863,8 +863,8 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 861,718,Zygarde (Complete Forme),DRAGON,GROUND,708,216,100,121,91,95,85,No Eggs Discovered,,Slow,44,11,13,11,14,12,12,3d4,8,-c,pokedex-swsh
 862,719,Diancie,ROCK,FAIRY,600,50,100,150,100,150,50,No Eggs Discovered,,Slow,11,3,13,7,19,13,19,3d4,12,,pokedex-swsh
 863,719,Mega Diancie,ROCK,FAIRY,700,50,160,110,160,110,110,No Eggs Discovered,,Slow,11,3,20,14,14,20,14,3d4,8,-m,pokedex-swsh
-864,720,Hoopa (Hoopa Confined),PSYCHIC,GHOST,600,80,110,60,150,130,70,No Eggs Discovered,,Slow,17,5,14,9,12,19,17,3d4,7,,pokedex-swsh
-865,720,Hoopa (Hoopa Unbound),PSYCHIC,DARK,680,80,160,60,170,130,80,No Eggs Discovered,,Slow,17,5,20,10,12,22,17,3d4,7,-u,pokedex-swsh
+864,720,Hoopa (Hoopa Confined),PSYCHIC,GHOST,600,80,110,60,150,130,70,No Eggs Discovered,,Slow,17,5,14,9,12,19,17,3d4,7,,pokedex-sm
+865,720,Hoopa (Hoopa Unbound),PSYCHIC,DARK,680,80,160,60,170,130,80,No Eggs Discovered,,Slow,17,5,20,10,12,22,17,3d4,7,-u,pokedex-sm
 866,721,Volcanion,FIRE,WATER,600,80,110,120,130,90,70,No Eggs Discovered,,Slow,17,5,14,9,14,17,12,3d4,8,,pokedex-swsh
 867,722,Rowlet,GRASS,FLYING,320,68,55,55,50,50,42,Flying,,Medium Slow,14,4,7,6,7,7,7,3d4,4,,pokedex-swsh
 868,723,Dartrix,GRASS,FLYING,420,78,75,75,70,70,52,Flying,,Medium Slow,16,4,10,7,10,9,9,3d4,5,,pokedex-swsh
@@ -886,10 +886,10 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 884,738,Vikavolt,BUG,ELECTRIC,500,77,70,90,145,75,43,Bug,,Medium Fast,16,4,9,6,11,19,10,3d4,6,,pokedex-swsh
 885,739,Crabrawler,FIGHTING,,338,47,82,57,42,47,63,Water 3,,Medium Fast,10,3,11,8,7,6,6,3d4,4,,pokedex-sm
 886,740,Crabominable,FIGHTING,ICE,478,97,132,77,62,67,43,Water 3,,Medium Fast,20,5,17,6,9,8,9,3d4,5,,pokedex-sm
-887,741,Oricorio (Baile Style),FIRE,FLYING,476,75,70,70,98,70,93,Flying,,Medium Fast,16,4,9,12,9,13,9,3d4,5,,pokedex-swsh
-888,741,Oricorio (Pom-Pom Style),ELECTRIC,FLYING,476,75,70,70,98,70,93,Flying,,Medium Fast,16,4,9,12,9,13,9,3d4,5,-p,pokedex-swsh
-889,741,Oricorio (Pa'u Style),PSYCHIC,FLYING,476,75,70,70,98,70,93,Flying,,Medium Fast,16,4,9,12,9,13,9,3d4,5,-pau,pokedex-swsh
-890,741,Oricorio (Sensu Style),GHOST,FLYING,476,75,70,70,98,70,93,Flying,,Medium Fast,16,4,9,12,9,13,9,3d4,5,-s,pokedex-swsh
+887,741,Oricorio (Baile Style),FIRE,FLYING,476,75,70,70,98,70,93,Flying,,Medium Fast,16,4,9,12,9,13,9,3d4,5,,pokedex-sm
+888,741,Oricorio (Pom-Pom Style),ELECTRIC,FLYING,476,75,70,70,98,70,93,Flying,,Medium Fast,16,4,9,12,9,13,9,3d4,5,-p,pokedex-sm
+889,741,Oricorio (Pa'u Style),PSYCHIC,FLYING,476,75,70,70,98,70,93,Flying,,Medium Fast,16,4,9,12,9,13,9,3d4,5,-pau,pokedex-sm
+890,741,Oricorio (Sensu Style),GHOST,FLYING,476,75,70,70,98,70,93,Flying,,Medium Fast,16,4,9,12,9,13,9,3d4,5,-s,pokedex-sm
 891,742,Cutiefly,BUG,FAIRY,304,40,45,40,55,40,84,Bug,Fairy,Medium Fast,9,3,6,11,5,7,5,3d4,3,,pokedex-swsh
 892,743,Ribombee,BUG,FAIRY,464,60,55,60,95,70,124,Bug,Fairy,Medium Fast,13,4,7,16,9,12,9,3d4,5,,pokedex-swsh
 893,744,Rockruff,ROCK,,280,45,65,40,30,40,60,Field,,Medium Fast,10,3,9,8,5,4,5,3d4,3,,pokedex-swsh
@@ -926,8 +926,8 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 924,771,Pyukumuku,WATER,,410,55,60,130,30,130,5,Water 1,,Fast,12,3,8,1,17,4,17,3d4,10,,pokedex-swsh
 925,772,Type: Null,NORMAL,,534,95,95,95,95,95,59,No Eggs Discovered,,Slow,20,5,12,8,12,12,12,3d4,7,,pokedex-swsh
 926,773,Silvally,NORMAL,,570,95,95,95,95,95,95,No Eggs Discovered,,Slow,20,5,12,12,12,12,12,3d4,7,,pokedex-swsh
-927,774,Minior (Meteor Form),ROCK,FLYING,440,60,60,100,60,100,60,Mineral,,Medium Slow,13,4,8,8,13,8,13,3d4,8,,pokedex-swsh
-928,774,Minior (Core Form),ROCK,FLYING,500,60,100,60,100,60,120,Mineral,,Medium Slow,13,4,13,15,8,13,8,3d4,4,-c,pokedex-swsh
+927,774,Minior (Meteor Form),ROCK,FLYING,440,60,60,100,60,100,60,Mineral,,Medium Slow,13,4,8,8,13,8,13,3d4,8,,pokedex-sm
+928,774,Minior (Core Form),ROCK,FLYING,500,60,100,60,100,60,120,Mineral,,Medium Slow,13,4,13,15,8,13,8,3d4,4,-c,pokedex-sm
 929,775,Komala,NORMAL,,480,65,115,65,75,95,65,Field,,Slow,14,4,15,9,10,10,12,3d4,6,,pokedex-sm
 930,776,Turtonator,FIRE,DRAGON,485,60,78,135,91,85,36,Monster,Dragon,Medium Fast,13,4,10,5,14,12,11,3d4,8,,pokedex-swsh
 931,777,Togedemaru,ELECTRIC,STEEL,435,65,98,63,40,73,96,Field,Fairy,Medium Fast,14,4,13,12,9,5,10,3d4,5,,pokedex-swsh
@@ -1065,7 +1065,7 @@ Index,Number,Name,Type-1,Type-2,Total,HP,Attack,Defense,Sp-Atk,Sp-Def,Speed,Egg-
 1063,898,Calyrex,PSYCHIC,GRASS,500,100,80,80,80,80,80,No Eggs Discovered,,Slow,21,6,10,10,10,10,10,3d4,6,,pokedex-swsh
 1064,898,Calyrex (Ice Rider),PSYCHIC,ICE,680,100,165,150,85,130,50,No Eggs Discovered,,Slow,21,6,21,7,18,11,17,3d4,11,-i,pokedex-swsh
 1065,898,Calyrex (Shadow Rider),PSYCHIC,GHOST,680,100,85,80,165,100,150,No Eggs Discovered,,Slow,21,6,11,19,12,21,13,3d4,7,-s,pokedex-swsh
-1066,899,Wyrdeer,NORMAL,PSYCHIC,525,103,105,72,105,75,65,Field,,Slow,21,6,14,9,10,14,10,3d4,5,,pokedex-swsh
+1066,899,Wyrdeer,NORMAL,PSYCHIC,525,103,105,72,105,75,65,Field,,Slow,21,6,14,9,10,14,10,3d4,5,,pokedex-sm
 1067,900,Kleavor,BUG,ROCK,500,70,135,95,45,70,85,Bug,,Medium Fast,15,4,17,11,11,6,9,3d4,6,,pokedex-swsh
 1068,901,Ursaluna,NORMAL,GROUND,550,130,140,105,45,80,50,Field,,Medium Fast,27,7,18,7,12,6,10,3d4,7,,pokedex-swsh
 1069,902,Basculegion (Male),WATER,GHOST,530,120,112,65,80,75,78,Water 2,,Medium Fast,25,7,14,10,9,10,10,3d4,5,,pokedex-swsh
