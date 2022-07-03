@@ -15,16 +15,18 @@ Assim, foram feitas conversões para cada atributo do RPG baseado nos status do 
     <script src="https://d3js.org/d3.v3.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/IsaDelatore/PokemonRPG@main/scripts/select.js"></script>
 
+    <link rel="stylesheet" href="https://rawcdn.githack.com/IsaDelatore/PokemonRPG/f37d25af70fee327764f96d720e3e14624d4dcba/styles/index.css">
+    
+
   </head>
   <body>
 
+    <img id="pokemon-logo" src="https://images2.imgbox.com/d7/14/mIN8Rxxg_o.png" alt="Fundo estilizado em azul com Pokémon escrito em amarelo ao centro. Abaixo, em vermelho, está escrito Adaptado para Tormenta20">
       <div class="container">
-
-      <h1>Pokémon RPG de Mesa</h1>
-
-
+      <div class="stats">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-6">
+          <h4>Eu escolho você:</h4>
           <div class="dropbox"></div>
         </div>
       </div>
@@ -34,35 +36,35 @@ Assim, foram feitas conversões para cada atributo do RPG baseado nos status do 
         </div>
         <div class="col-sm-6">
           <div class="row">
-            <h2>Pokemon Stats</h2>
-              <div class="col-3" id="label">
-                <p>Tipo: </p>
-                <p>Total: </p>
-                <p>Hp: </p>
-                <p>Ataque: </p>
-                <p>Defesa: </p>
-                <p>Ataque Sp: </p>
-                <p>Defesa Sp: </p>
-                <p>Velocidade: </p>
-                <p>Egg Group: </p>
-                <p>Tipo de XP: </p>
+            <h2>STATUS POKÉMON</h2>
+              <div class="col-6" id="label">
+                <p class = "label"><strong>Tipo:</strong></p>
+                <p class = "label"><strong>Total:</strong></p>
+                <p class = "label"><strong>Hp:</strong></p>
+                <p class = "label"><strong>Ataque:</strong></p>
+                <p class = "label"><strong>Defesa:</strong></p>
+                <p class = "label"><strong>Ataque Sp:</strong></p>
+                <p class = "label"><strong>Defesa Sp:</strong></p>
+                <p class = "label"><strong>Velocidade:</strong></p>
+                <p class = "label"><strong>Egg Group:</strong></p>
+                <p class = "label"><strong>Tipo de XP:</strong></p>
               </div>
-              <div class="col-3" id="pokemon-stats"></div>
+              <div class="col-6" id="pokemon-stats"></div>
           </div>
           </div>
         </div>
         <div class="row">
-            <h2>Tormenta Stats</h2>
+            <h2>STATUS TORMENTA20</h2>
             <div class="col-3" id="label">
-              <p>HP base: </p>
-              <p>HP/Nv: </p>
-              <p>Força: </p>
-              <p>Destreza: </p>
-              <p>Constituição: </p>
-              <p>Inteligência: </p>
-              <p>Sabedoria: </p>
-              <p>Carisma: </p>
-              <p>Armor: </p>
+              <p class = "label"><strong>HP base:</strong></p>
+              <p class = "label"><strong>HP/Nv:</strong></p>
+              <p class = "label"><strong>Força:</strong></p>
+              <p class = "label"><strong>Destreza:</strong></p>
+              <p class = "label"><strong>Constituição:</strong></p>
+              <p class = "label"><strong>Inteligência:</strong></p>
+              <p class = "label"><strong>Sabedoria:</strong></p>
+              <p class = "label"><strong>Carisma:</strong></p>
+              <p class = "label"><strong>Armor:</strong></p>
             </div>
             <div class="col-3" id="tormenta-stats"></div>
             <div class="col-6">
@@ -72,8 +74,13 @@ Assim, foram feitas conversões para cada atributo do RPG baseado nos status do 
               <div class="row" id="poderes">
                 <h4>Poderes</h4>
               </div>
+              <div class="row" id="ataques">
+                <h4>Ataques e Habilidades</h4>
+
+              </div>
             </div>
           </div>
+        </div>
     </div>
   </body>
 </html>
